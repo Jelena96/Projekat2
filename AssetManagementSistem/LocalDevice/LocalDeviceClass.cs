@@ -17,6 +17,8 @@ namespace LocalDevice
         public DeviceEnum ActualValue { get; set; }
 
         public string DeviceType { get; set; }
+
+        public string SendTo { get; set; }
       //  public AnalogDeviceEnum AnalogDevice { get; set; }
         
     }

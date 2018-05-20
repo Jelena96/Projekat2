@@ -14,10 +14,12 @@ namespace Contracts
         int LocalDeviceCode { get; set; }
 
         DateTime Timestamp { get; }
+
         string DeviceType { get; set; }
-        //AnalogDeviceEnum AnalogDevice { get; set; }
 
         DeviceEnum ActualValue { get; set; }
-       
+
+        string SendTo { get; set; }
+
     }
 }
