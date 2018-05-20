@@ -12,6 +12,7 @@ namespace LocalControler
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hehe");
             ServiceHost svc = new ServiceHost(typeof(LocalControlerClass));
             NetTcpBinding binding = new NetTcpBinding();
             binding.TransactionFlow = true;
