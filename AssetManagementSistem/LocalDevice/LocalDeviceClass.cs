@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Contracts;
+
 
 namespace LocalDevice
 {
@@ -12,13 +12,12 @@ namespace LocalDevice
     {
         public int LocalDeviceCode { get; set; }
 
-        public long Timestamp { get; set; }
+        public DateTime Timestamp { get; set; }
 
-        public string ActualValue { get; set; }
+        public DeviceEnum ActualValue { get; set; }
 
-        public void Ispis()
-        {
-            Console.WriteLine("ZIV SAM I ZOVEM SE LOCAL DEVICE.");
-        }
+        public string DeviceType { get; set; }
+      //  public AnalogDeviceEnum AnalogDevice { get; set; }
+        
     }
 }

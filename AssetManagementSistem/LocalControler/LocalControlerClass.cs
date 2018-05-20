@@ -18,7 +18,6 @@ namespace LocalControler
 
             list = new List<LocalDeviceClass>();
 
-
         }
 
        public void Ispis1()
