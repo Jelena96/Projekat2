@@ -37,9 +37,7 @@ namespace LocalDevice
 
         static void Main(string[] args)
         {
-<<<<<<< HEAD
-           
-=======
+
             string type="";
             List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
            
@@ -128,7 +126,7 @@ namespace LocalDevice
 
             string[] p;
             string ime = null;
-            string folder = @"C:\Users\Jelena\Documents\GitHub\Projekat\AssetManagementSistem\LocalDevice\bin\Debug";
+            string folder = @"..\..\..\Kontroleri";
             string[] files = Directory.GetFiles(folder,"*.xml");
 
             if (files.Length == 0)
@@ -143,7 +141,7 @@ namespace LocalDevice
                 Console.WriteLine("Postoje fajlovi",ime);
 
             }
->>>>>>> 6c5cb4017c80b6d9cb67771aa06fd0e40aee2e2e
+
 
             Console.ReadLine();
         }
