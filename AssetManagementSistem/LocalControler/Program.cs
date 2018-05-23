@@ -5,6 +5,9 @@ using System.Linq;
 using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
+using LocalDevice;
+using System.IO;
+using System.Xml;
 
 namespace LocalControler
 {
@@ -12,8 +15,12 @@ namespace LocalControler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hehe");
+            Console.WriteLine("u kontroleru sam");
            
+
+           
+           
+
 
             Console.ReadLine();
             

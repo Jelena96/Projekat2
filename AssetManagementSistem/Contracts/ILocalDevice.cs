@@ -21,5 +21,8 @@ namespace Contracts
 
         string SendTo { get; set; }
 
+        bool CreateXML(string o);
+
+        
     }
 }

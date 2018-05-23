@@ -18,18 +18,20 @@ namespace LocalDevice
         //public static IEnumerable<int> Range(int start,int count);
         private static readonly Random ran = new Random();
         private static List<string> aktivniKontroleri = new List<string>();
-       
+        public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
+        public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
+        public static LocalDeviceClass l;
         private static DeviceEnum GetType3()
         {
-             return (DeviceEnum)(ran.Next(0,1));
+            return (DeviceEnum)(ran.Next(0, 1));
 
         }
 
-        
+
 
         private static DeviceEnum GetType2()
         {
-            
+
             return (DeviceEnum)(ran.Next(2, 3));
         }
 
@@ -37,25 +39,38 @@ namespace LocalDevice
 
         static void Main(string[] args)
         {
-
-            string type="";
-            List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
            
 
-                while (type != "E")
-                {
+                        /*{ 1,new List<LocalDeviceClass>()},
+                        { 2,new List<LocalDeviceClass>()},
+                        { 3,new List<LocalDeviceClass>()},
+                        { 4,new List<LocalDeviceClass>()},
+                        { 5,new List<LocalDeviceClass>()},
 
+                    };*/
+
+            string path = "";
+            string type = "";
+            
+            int idk = 0;
+
+            while (type != "E")
+            {
+                if (ld.Count != 0)
+                {
+                    ld.Clear();
+                }
 
                 Console.WriteLine("Unesi tip zeljenog uredjaja");
                 type = Console.ReadLine();
                 if (type == "A" || type == "D")
                 {
-                    LocalDeviceClass l = new LocalDeviceClass();
+                     l = new LocalDeviceClass();
                     Console.WriteLine("Unesi id uredjaja");
                     int id = int.Parse(Console.ReadLine());
 
-                    Console.WriteLine("Unesi id zeljenog kontrolera");
-                    int idK = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Unesi id zeljenog kontrolera:");
+                    idk = int.Parse(Console.ReadLine());
 
                     Console.WriteLine("Unesi kome zelis da saljes podatke");
                     string salji = Console.ReadLine();
@@ -64,18 +79,51 @@ namespace LocalDevice
                     if (type == "A")
                     {
 
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, Timestamp = DateTime.Now, ActualValue = GetType2() ,SendTo=salji};
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, Timestamp = DateTime.Now, ActualValue = GetType2(), SendTo = salji };
 
                     }
 
                     if (type == "D")
                     {
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, Timestamp = DateTime.Now, ActualValue = GetType3() ,SendTo=salji};
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, Timestamp = DateTime.Now, ActualValue = GetType3(), SendTo = salji };
 
 
                     }
 
-                    ld.Add(l);
+                      //zavrsili sa deviceom
+                
+                    
+                    if (salji == "LC")
+                    {
+
+                        
+                        
+
+                        if (!DeviceDic.ContainsKey(idk))
+                        {
+                            
+                            DeviceDic.Add(idk,new List<LocalDeviceClass>());
+                        }
+
+                        foreach (KeyValuePair<int, List<LocalDeviceClass>> item in DeviceDic)
+                        {
+                            if (item.Key == idk)
+                            {
+                                //foreach (LocalDeviceClass str in item.Value)
+                                //{
+                                item.Value.Add(l);
+                            }
+                            //}
+                        }
+                        path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
+                        bool uspjesno = false;
+                        uspjesno = l.CreateXML(path);
+                    }
+
+                 else if(salji=="AMS")
+                    {
+
+                    }
                 }
                 else
                 {
@@ -83,65 +131,10 @@ namespace LocalDevice
                     Console.WriteLine("Niste uneli dobar tip uredjaja");
                     //continue;
                 }
-                }
+            }
+
 
             
-          
-
-            foreach (LocalDeviceClass item in ld)
-            {
-                /*if (item.SendTo == "LC" && )
-                {
-
-                }*/
-            }
-            using (XmlWriter writer = XmlWriter.Create("controler1.xml"))
-            {
-
-                writer.WriteStartDocument();
-                writer.WriteStartElement("Devices");
-
-
-                foreach (LocalDeviceClass device in ld)
-                {
-                    writer.WriteStartElement("Device");
-                    Enum e = device.ActualValue;
-
-                    //Enum.GetName(typeof(DeviceEnum), e);
-
-                    writer.WriteElementString("ID", device.LocalDeviceCode.ToString());
-                    writer.WriteElementString("ActualValue", e.ToString());
-                    writer.WriteElementString("Type", device.DeviceType);
-                    writer.WriteElementString("TimeStamp", device.Timestamp.ToString());
-                    writer.WriteElementString("TimeStamp", device.SendTo);
-
-
-
-                    writer.WriteEndElement();
-                }
-
-                writer.WriteEndElement();
-                writer.WriteEndDocument();
-            }
-
-            string[] p;
-            string ime = null;
-            string folder = @"..\..\..\Kontroleri";
-            string[] files = Directory.GetFiles(folder,"*.xml");
-
-            if (files.Length == 0)
-            {
-                Console.WriteLine("Ne postoji xml file");
-
-            }
-            else {
-
-                p = files[0].Split('\\');
-                ime = p[9].Substring(0, p[9].Length - 4);
-                Console.WriteLine("Postoje fajlovi",ime);
-
-            }
-
 
             Console.ReadLine();
         }
