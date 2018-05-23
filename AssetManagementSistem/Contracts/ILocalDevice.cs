@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel;
@@ -12,9 +13,13 @@ namespace Contracts
     {
         int LocalDeviceCode { get; set; }
 
-        long Timestamp { get; }
-        string ActualValue { get; set; }
-        [OperationContract]
-        void Ispis();
+        DateTime Timestamp { get; }
+
+        string DeviceType { get; set; }
+
+        DeviceEnum ActualValue { get; set; }
+
+        string SendTo { get; set; }
+
     }
 }

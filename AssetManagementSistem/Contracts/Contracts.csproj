@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalogDeviceEnum.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="DeviceEnum.cs" />
     <Compile Include="ILocalControler.cs" />
     <Compile Include="ILocalDevice.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
