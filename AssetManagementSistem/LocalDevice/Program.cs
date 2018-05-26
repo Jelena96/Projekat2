@@ -18,44 +18,35 @@ namespace LocalDevice
     {
         //public static IEnumerable<int> Range(int start,int count);
         private static readonly Random ran = new Random();
-        private static List<string> aktivniKontroleri = new List<string>();
+        
+        public static List<int> ids = new List<int>();
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
         public static LocalDeviceClass l;
-        
-            
-            
-            
-        private static DeviceEnum GetType3()
+       
+
+        /*private static DeviceEnum GetType3()
         {
             return (DeviceEnum)(ran.Next(0, 3));
 
+        }*/
+
+        private static int GetType1()
+        {
+
+            return ran.Next(0, 1);
         }
-
-
-
         private static int GetType2()
         {
 
-            return ran.Next(0, 10);
+            return ran.Next(1, 10);
         }
-
 
         static void Main(string[] args)
         {
            
-
-                        /*{ 1,new List<LocalDeviceClass>()},
-                        { 2,new List<LocalDeviceClass>()},
-                        { 3,new List<LocalDeviceClass>()},
-                        { 4,new List<LocalDeviceClass>()},
-                        { 5,new List<LocalDeviceClass>()},
-
-                    };*/
-
             string path = "";
             string type = "";
-            
             int idk = 0;
            
                 while (type != "E")
@@ -65,13 +56,21 @@ namespace LocalDevice
                     ld.Clear();
                 }
               
-                Console.WriteLine("Unesi tip zeljenog uredjaja");
+                Console.WriteLine("Unesi tip zeljenog uredjaja:");
                 type = Console.ReadLine();
                 if (type == "A" || type == "D")
                 {
-                     l = new LocalDeviceClass();
+                    l = new LocalDeviceClass();
+
                     Console.WriteLine("Unesi id uredjaja");
                     int id = int.Parse(Console.ReadLine());
+                    while(ids.Contains(id))
+                    {
+                        Console.WriteLine("Ponovo unesite ID uredjaja,uneseni vec postoji");
+                        id = int.Parse(Console.ReadLine());
+                    }
+                    ids.Add(id);
+                   
 
                     Console.WriteLine("Unesi id zeljenog kontrolera:");
                     idk = int.Parse(Console.ReadLine());
@@ -82,16 +81,12 @@ namespace LocalDevice
 
                     if (type == "A")
                     {
-
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, Timestamp = DateTime.Now, AnalogActualValue=GetType2() ,ActualValue = DeviceEnum.none, SendTo = salji };
-                        
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, Timestamp = DateTime.Now, AnalogActualValue=GetType2() ,ActualValue = DeviceEnum.on, ActualState=DeviceEnum.close, SendTo = salji };
                     }
 
                     if (type == "D")
                     {
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, Timestamp = DateTime.Now, ActualValue = GetType3(), AnalogActualValue=0, SendTo = salji };
-
-
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, Timestamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue =GetType1(), SendTo = salji };
                     }
 
                       //zavrsili sa deviceom
@@ -99,10 +94,6 @@ namespace LocalDevice
                     
                     if (salji == "LC")
                     {
-
-                        
-                        
-
                         if (!DeviceDic.ContainsKey(idk))
                         {
                             
@@ -113,18 +104,14 @@ namespace LocalDevice
                         {
                             if (item.Key == idk)
                             {
-                                //foreach (LocalDeviceClass str in item.Value)
-                                //{
                                 item.Value.Add(l);
                             }
-                            //}
                         }
                         path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
                         bool uspjesno = false;
                         Thread t = new Thread(new ThreadStart(() =>
                         {
                             uspjesno=l.CreateXML(path);
-                            //FileStream fs = new FileStream(path, FileMode.Append);
                             Thread.Sleep(Timeout.Infinite);
                         }));
                         t.IsBackground = true;

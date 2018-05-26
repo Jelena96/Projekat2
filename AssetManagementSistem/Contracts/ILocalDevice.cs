@@ -18,11 +18,12 @@ namespace Contracts
         string DeviceType { get; set; }
 
         DeviceEnum ActualValue { get; set; }
+        DeviceEnum ActualState { get; set; }
 
         string SendTo { get; set; }
 
         bool CreateXML(string o);
-
+        
         
     }
 }
