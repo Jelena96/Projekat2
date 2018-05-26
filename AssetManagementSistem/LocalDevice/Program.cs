@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -21,20 +22,23 @@ namespace LocalDevice
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
         public static LocalDeviceClass l;
+        
+            
+            
+            
         private static DeviceEnum GetType3()
         {
-            return (DeviceEnum)(ran.Next(0, 1));
+            return (DeviceEnum)(ran.Next(0, 3));
 
         }
 
 
 
-        private static DeviceEnum GetType2()
+        private static int GetType2()
         {
 
-            return (DeviceEnum)(ran.Next(2, 3));
+            return ran.Next(0, 10);
         }
-
 
 
         static void Main(string[] args)
@@ -53,14 +57,14 @@ namespace LocalDevice
             string type = "";
             
             int idk = 0;
-
-            while (type != "E")
+           
+                while (type != "E")
             {
                 if (ld.Count != 0)
                 {
                     ld.Clear();
                 }
-
+              
                 Console.WriteLine("Unesi tip zeljenog uredjaja");
                 type = Console.ReadLine();
                 if (type == "A" || type == "D")
@@ -79,13 +83,13 @@ namespace LocalDevice
                     if (type == "A")
                     {
 
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, Timestamp = DateTime.Now, ActualValue = GetType2(), SendTo = salji };
-
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, Timestamp = DateTime.Now, AnalogActualValue=GetType2() ,ActualValue = DeviceEnum.none, SendTo = salji };
+                        
                     }
 
                     if (type == "D")
                     {
-                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, Timestamp = DateTime.Now, ActualValue = GetType3(), SendTo = salji };
+                        l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, Timestamp = DateTime.Now, ActualValue = GetType3(), AnalogActualValue=0, SendTo = salji };
 
 
                     }
@@ -117,7 +121,15 @@ namespace LocalDevice
                         }
                         path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
                         bool uspjesno = false;
-                        uspjesno = l.CreateXML(path);
+                        Thread t = new Thread(new ThreadStart(() =>
+                        {
+                            uspjesno=l.CreateXML(path);
+                            //FileStream fs = new FileStream(path, FileMode.Append);
+                            Thread.Sleep(Timeout.Infinite);
+                        }));
+                        t.IsBackground = true;
+                        t.Start();
+                       
                     }
 
                  else if(salji=="AMS")
@@ -131,12 +143,15 @@ namespace LocalDevice
                     Console.WriteLine("Niste uneli dobar tip uredjaja");
                     //continue;
                 }
-            }
+                    
+                    
+                }
+        
 
-
-            
 
             Console.ReadLine();
+
+
         }
     }
 }

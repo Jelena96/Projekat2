@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Contracts
 {
-    public enum DeviceEnum { on,off,close,open};
+    public enum DeviceEnum { on,off,close,open,none};
     public class Klasa
     {
        public DeviceEnum Device { get; set; }
