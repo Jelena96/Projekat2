@@ -23,6 +23,7 @@ namespace LocalDevice
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
         public static LocalDeviceClass l;
+        public static bool success = false;
        
 
         /*private static DeviceEnum GetType3()
@@ -50,7 +51,7 @@ namespace LocalDevice
             int idk = 0;
            
                 while (type != "E")
-            {
+                {
                 if (ld.Count != 0)
                 {
                     ld.Clear();
@@ -121,7 +122,8 @@ namespace LocalDevice
 
                  else if(salji=="AMS")
                     {
-
+                        LocalDeviceClass.WriteAMSxml(l);
+                        success = true;
                     }
                 }
                 else
@@ -133,8 +135,8 @@ namespace LocalDevice
                     
                     
                 }
-        
 
+                    
 
             Console.ReadLine();
 

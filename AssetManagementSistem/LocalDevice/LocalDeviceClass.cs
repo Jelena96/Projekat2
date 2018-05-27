@@ -29,6 +29,8 @@ namespace LocalDevice
 
         }
 
+
+
         private static Random ran = new Random();
         /* private static DeviceEnum GetType3()
          {
@@ -77,7 +79,7 @@ namespace LocalDevice
 
                                     writer.WriteStartElement("Device");
                                     Enum e = device.ActualValue;
-                                   // device.Timestamp = DateTime.Now;
+                                    // device.Timestamp = DateTime.Now;
 
                                     //Enum.GetName(typeof(DeviceEnum), e);
 
@@ -108,7 +110,7 @@ namespace LocalDevice
 
 
                     }
-                    
+
 
                 }
 
@@ -141,10 +143,10 @@ namespace LocalDevice
 
 
                 }
-                }
+            }
             else {
 
-                
+
                 foreach (KeyValuePair<int, List<LocalDeviceClass>> item in Program.DeviceDic)
                 {
                     if (item.Key == Program.l.IdControler)
@@ -156,20 +158,20 @@ namespace LocalDevice
                             XElement root = xDocument.Element("Devices");
                             IEnumerable<XElement> rows = root.Descendants("Device");
                             XElement firstRow = rows.First();
-                           
+
 
                             if (device.DeviceType == "A")
                             {
 
-                              firstRow.AddBeforeSelf(
-                                  new XElement("Device",
-                                  new XElement("Type", device.DeviceType.ToString()),
-                                  new XElement("ID", device.LocalDeviceCode.ToString()),
-                                  new XElement("SendTo", device.SendTo.ToString()),
-                                  new XElement("ActualValue", device.ActualValue.ToString()),
-                                  new XElement("ActualState", device.ActualState.ToString()),
-                                  new XElement("TimeStamp", device.Timestamp.ToString()),
-                                  new XElement("Measurment", device.AnalogActualValue.ToString())));
+                                firstRow.AddBeforeSelf(
+                                    new XElement("Device",
+                                    new XElement("Type", device.DeviceType.ToString()),
+                                    new XElement("ID", device.LocalDeviceCode.ToString()),
+                                    new XElement("SendTo", device.SendTo.ToString()),
+                                    new XElement("ActualValue", device.ActualValue.ToString()),
+                                    new XElement("ActualState", device.ActualState.ToString()),
+                                    new XElement("TimeStamp", device.Timestamp.ToString()),
+                                    new XElement("Measurment", device.AnalogActualValue.ToString())));
                             }
 
                             if (device.DeviceType == "D")
@@ -220,6 +222,87 @@ namespace LocalDevice
 
             return uspesno;
         }
+
+        public static bool WriteAMSxml(LocalDeviceClass device)
+        {
+            int j = 0;
+            bool u = false;
+            if (!File.Exists(@"..\..\..\AMSBaza\AMS.xml"))
+            {
+                using (XmlWriter writer = XmlWriter.Create(@"..\..\..\AMSBaza\AMS.xml"))
+                {
+
+                    u = true;
+                    writer.WriteStartDocument();
+                    writer.WriteStartElement("Devices");
+
+                    while (j != 3)
+                    {
+
+
+                        writer.WriteStartElement("Device");
+                        Enum e = device.ActualValue;
+
+
+                        writer.WriteElementString("Type", device.DeviceType);
+                        writer.WriteElementString("ID", device.LocalDeviceCode.ToString());
+                        writer.WriteElementString("SendTo", device.SendTo);
+                        writer.WriteElementString("ActualValue", device.ActualValue.ToString());
+                        writer.WriteElementString("ActualState", device.ActualState.ToString());
+                        writer.WriteElementString("TimeStamp", device.Timestamp.ToString());
+
+                        if (device.DeviceType == "A")
+                        {
+                            writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());
+                        }
+                        else if (device.DeviceType == "D")
+                        {
+                            writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());
+                        }
+                        writer.WriteEndElement();
+                        j++;
+                    }
+
+                    writer.WriteEndElement();
+                    writer.WriteEndDocument();
+                    writer.Close();
+
+                    
+
+                }
+
+          
+
+
+            }
+            else
+            {
+                XDocument xDocument = XDocument.Load(@"..\..\..\AMSBaza\AMS.xml");
+                XElement root = xDocument.Element("Devices");
+                IEnumerable<XElement> rows = root.Descendants("Device");
+                XElement firstRow = rows.First();
+
+                firstRow.AddBeforeSelf(
+                    new XElement("Device",
+                    new XElement("Type", device.DeviceType),
+                    new XElement("ID", device.LocalDeviceCode.ToString()),
+                    new XElement("SendTo", device.SendTo),
+                    new XElement("ActualValue", device.ActualValue),
+                    new XElement("ActualState", device.ActualState),
+                    new XElement("TimeStamp", device.Timestamp.ToString()),
+                    new XElement("Measurment", device.AnalogActualValue.ToString())));
+
+                xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
+         
+                
+
+            }
+
+            return u;
+        }
+
+       
+                
     }
 }
 

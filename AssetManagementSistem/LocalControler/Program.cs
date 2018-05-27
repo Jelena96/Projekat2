@@ -17,13 +17,16 @@ namespace LocalControler
         {
             Console.WriteLine("u kontroleru sam");
             LocalControlerClass lc = new LocalControlerClass();
-            bool uspesno = lc.ReadXML();
-            if (uspesno)
-            {
-                Console.WriteLine("Procitao sam");
-            }
-           
 
+            Console.WriteLine("Da li zelite da saljete AMS-u?");
+            string unos = Console.ReadLine();
+
+            if (unos == "da")
+            {
+
+                bool uspesno = lc.ReadXML();
+                lc.DeleteControllers();
+            }
 
             Console.ReadLine();
             

@@ -17,7 +17,7 @@ namespace LocalControler
         public static List<LocalDeviceClass> list;
         public int LocalControlerCode { get; set; }
         public long TimeStamp { get; set; }
-
+        public static bool success = false;
         
         public LocalControlerClass() {
 
@@ -50,6 +50,7 @@ namespace LocalControler
                     xmlnode = xmldoc.GetElementsByTagName("Device");
                     for (i = 0; i <= xmlnode.Count - 1; i++)
                     {
+                        uspesno = true;
                         xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
                         str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim()+" "+
                          xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
@@ -57,7 +58,8 @@ namespace LocalControler
                         WriteAMSxml(str);
                     }
 
-
+                    fs.Close();
+                
                 }
             }
 
@@ -73,37 +75,39 @@ namespace LocalControler
             string Id = stringArray[2].ToString();
             string SendTo = stringArray[4];
             string ActualValue = stringArray[5];
-            string ActualState= stringArray[7];
-            string TimeStamp= stringArray[9] + stringArray[10]+stringArray[11];
-            string Measurment= stringArray[13];
+            string ActualState = stringArray[7];
+            string TimeStamp = stringArray[9] + stringArray[10] + stringArray[11];
+            string Measurment = stringArray[13];
+            success = true;
 
-            if (!File.Exists(@"..\..\..\AMSBaza\AMS.xml")){
+            if (!File.Exists(@"..\..\..\AMSBaza\AMS.xml"))
+            {
 
-               
+
 
                 using (XmlWriter writer = XmlWriter.Create(@"..\..\..\AMSBaza\AMS.xml"))
                 {
-                           writer.WriteStartDocument();
-                           writer.WriteStartElement("Devices");
+                    writer.WriteStartDocument();
+                    writer.WriteStartElement("Devices");
 
 
-                           writer.WriteStartElement("Device");
+                    writer.WriteStartElement("Device");
 
-                           writer.WriteElementString("Type", Type);
-                           writer.WriteElementString("ID", Id);
-                           writer.WriteElementString("SendTo", SendTo);
-                           writer.WriteElementString("ActualValue", ActualValue);
-                           writer.WriteElementString("ActualState", ActualState);
-                           writer.WriteElementString("TimeStamp", TimeStamp);
-                           writer.WriteElementString("Measurment", Measurment);
-                  
-                            writer.WriteEndElement();
-                             
-                            writer.WriteEndElement();
-                            writer.WriteEndDocument();
-                        }
+                    writer.WriteElementString("Type", Type);
+                    writer.WriteElementString("ID", Id);
+                    writer.WriteElementString("SendTo", SendTo);
+                    writer.WriteElementString("ActualValue", ActualValue);
+                    writer.WriteElementString("ActualState", ActualState);
+                    writer.WriteElementString("TimeStamp", TimeStamp);
+                    writer.WriteElementString("Measurment", Measurment);
 
-                    }
+                    writer.WriteEndElement();
+
+                    writer.WriteEndElement();
+                    writer.WriteEndDocument();
+                }
+
+            }
             else
             {
                 XDocument xDocument = XDocument.Load(@"..\..\..\AMSBaza\AMS.xml");
@@ -111,23 +115,47 @@ namespace LocalControler
                 IEnumerable<XElement> rows = root.Descendants("Device");
                 XElement firstRow = rows.First();
 
-                    firstRow.AddBeforeSelf(
-                        new XElement("Device",
-                        new XElement("Type", Type),
-                        new XElement("ID", Id),
-                        new XElement("SendTo", SendTo),
-                        new XElement("ActualValue", ActualValue),
-                        new XElement("ActualState", ActualState),
-                        new XElement("TimeStamp", TimeStamp),
-                        new XElement("Measurment", Measurment)));
-              
+                firstRow.AddBeforeSelf(
+                    new XElement("Device",
+                    new XElement("Type", Type),
+                    new XElement("ID", Id),
+                    new XElement("SendTo", SendTo),
+                    new XElement("ActualValue", ActualValue),
+                    new XElement("ActualState", ActualState),
+                    new XElement("TimeStamp", TimeStamp),
+                    new XElement("Measurment", Measurment)));
+
                 xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
             }
+
+           
+
+                
+
+            
             return uspesno;
         }
 
-          
-        
+        public void DeleteControllers() {
+
+            string folder = @"..\..\..\Kontroleri";
+            string[] files = Directory.GetFiles(folder, "*.xml");
+
+            if (success)
+            {
+
+                foreach (string putanja in files)
+                {
+
+                    File.Delete(putanja);
+
+
+
+                }
+            }
+        }
+
+
 
     }
 }
