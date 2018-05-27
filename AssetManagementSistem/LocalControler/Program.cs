@@ -16,9 +16,12 @@ namespace LocalControler
         static void Main(string[] args)
         {
             Console.WriteLine("u kontroleru sam");
-           
-
-           
+            LocalControlerClass lc = new LocalControlerClass();
+            bool uspesno = lc.ReadXML();
+            if (uspesno)
+            {
+                Console.WriteLine("Procitao sam");
+            }
            
 
 

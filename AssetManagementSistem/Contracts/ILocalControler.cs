@@ -14,10 +14,10 @@ namespace Contracts
         int LocalControlerCode { get; set; }
         
         long TimeStamp { get; set; }
-        
-      
 
         [OperationContract]
-        void Ispis1();
+        bool ReadXML();
+        [OperationContract]
+        bool WriteAMSxml(string s);
     }
 }

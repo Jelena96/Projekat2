@@ -23,18 +23,18 @@ namespace LocalDevice
 
         public string SendTo { get; set; }
         public DeviceEnum ActualState { get; set; }
-
+        public static string[] files;
         public LocalDeviceClass()
         {
 
         }
 
         private static Random ran = new Random();
-       /* private static DeviceEnum GetType3()
-        {
-            return (DeviceEnum)(ran.Next(0, 3));
+        /* private static DeviceEnum GetType3()
+         {
+             return (DeviceEnum)(ran.Next(0, 3));
 
-        }*/
+         }*/
         private static int GetType2()
         {
 
@@ -53,60 +53,66 @@ namespace LocalDevice
         {
             int j = 0;
             bool u = false;
-            using (XmlWriter writer = XmlWriter.Create(p1))
+
+            if (!CheckXMLFile(p1))
             {
+                using (XmlWriter writer = XmlWriter.Create(p1))
+                {
 
                     foreach (KeyValuePair<int, List<LocalDeviceClass>> item in Program.DeviceDic)
                     {
                         if (item.Key == Program.l.IdControler)
                         {
-                       
+
                             u = true;
                             writer.WriteStartDocument();
                             writer.WriteStartElement("Devices");
 
-                        while (j!=3) {
-
-                            foreach (LocalDeviceClass device in item.Value)
+                            while (j != 3)
                             {
 
-
-                                writer.WriteStartElement("Device");
-                                Enum e = device.ActualValue;
-
-                                //Enum.GetName(typeof(DeviceEnum), e);
-
-                                writer.WriteElementString("Type", device.DeviceType);
-                                writer.WriteElementString("ID", device.LocalDeviceCode.ToString());
-                                writer.WriteElementString("SendTo", device.SendTo);
-                                writer.WriteElementString("ActualValue", device.ActualValue.ToString());
-                                writer.WriteElementString("ActualState", device.ActualState.ToString());
-                                writer.WriteElementString("TimeStamp", DateTime.Now.ToString());
-                                
-                                if (device.DeviceType == "A")
+                                foreach (LocalDeviceClass device in item.Value)
                                 {
-                                    writer.WriteElementString("Measurment", GetType2().ToString());
-                                } else if(device.DeviceType=="D")
-                                {
-                                    writer.WriteElementString("Measurment", GetType1().ToString());
+
+
+                                    writer.WriteStartElement("Device");
+                                    Enum e = device.ActualValue;
+                                   // device.Timestamp = DateTime.Now;
+
+                                    //Enum.GetName(typeof(DeviceEnum), e);
+
+                                    writer.WriteElementString("Type", device.DeviceType);
+                                    writer.WriteElementString("ID", device.LocalDeviceCode.ToString());
+                                    writer.WriteElementString("SendTo", device.SendTo);
+                                    writer.WriteElementString("ActualValue", device.ActualValue.ToString());
+                                    writer.WriteElementString("ActualState", device.ActualState.ToString());
+                                    writer.WriteElementString("TimeStamp", device.Timestamp.ToString());
+
+                                    if (device.DeviceType == "A")
+                                    {
+                                        writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());
+                                    }
+                                    else if (device.DeviceType == "D")
+                                    {
+                                        writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());
+                                    }
+                                    writer.WriteEndElement();
+
+
                                 }
-                                writer.WriteEndElement();
-
-                               
+                                j++;
                             }
-                            j++;
+                            writer.WriteEndElement();
+                            writer.WriteEndDocument();
                         }
-                        writer.WriteEndElement();
-                        writer.WriteEndDocument();
-                    }
 
 
                     }
-
                     
-               
 
-                u = false;
+                }
+
+
                 string[] p;
                 string ime = null;
                 string folder = @"..\..\..\Kontroleri";
@@ -125,24 +131,95 @@ namespace LocalDevice
                         p = file.Split('\\');
                         ime = p[4].Substring(0, p[4].Length - 4);
                         aktivniKontroleri.Add(ime);
-                       
+
                         foreach (var item in aktivniKontroleri)
                         {
                             Console.WriteLine("{0}", item);
                         }
                         aktivniKontroleri.Remove(ime);
                     }
-                    
-                    
-                    
-                    
-                    
+
 
                 }
-                return u;
+                }
+            else {
+
+                
+                foreach (KeyValuePair<int, List<LocalDeviceClass>> item in Program.DeviceDic)
+                {
+                    if (item.Key == Program.l.IdControler)
+                    {
+                        foreach (LocalDeviceClass device in item.Value)
+                        {
+
+                            XDocument xDocument = XDocument.Load(p1);
+                            XElement root = xDocument.Element("Devices");
+                            IEnumerable<XElement> rows = root.Descendants("Device");
+                            XElement firstRow = rows.First();
+                           
+
+                            if (device.DeviceType == "A")
+                            {
+
+                              firstRow.AddBeforeSelf(
+                                  new XElement("Device",
+                                  new XElement("Type", device.DeviceType.ToString()),
+                                  new XElement("ID", device.LocalDeviceCode.ToString()),
+                                  new XElement("SendTo", device.SendTo.ToString()),
+                                  new XElement("ActualValue", device.ActualValue.ToString()),
+                                  new XElement("ActualState", device.ActualState.ToString()),
+                                  new XElement("TimeStamp", device.Timestamp.ToString()),
+                                  new XElement("Measurment", device.AnalogActualValue.ToString())));
+                            }
+
+                            if (device.DeviceType == "D")
+                            {
+
+                                firstRow.AddBeforeSelf(
+                                     new XElement("Device",
+                                     new XElement("Type", device.DeviceType.ToString()),
+                                     new XElement("ID", device.LocalDeviceCode.ToString()),
+                                     new XElement("SendTo", device.SendTo.ToString()),
+                                     new XElement("ActualValue", device.ActualValue.ToString()),
+                                     new XElement("ActualState", device.ActualState.ToString()),
+                                     new XElement("TimeStamp", device.Timestamp.ToString()),
+                                     new XElement("Measurment", device.AnalogActualValue.ToString())));
+
+                            }
+                            xDocument.Save(p1);
+                        }
+                    }
+                }
+
             }
 
+            return u;
+        }
 
+
+        public static bool CheckXMLFile(string p)
+        {
+
+            bool uspesno = false;
+            string folder = @"..\..\..\Kontroleri";
+            files = Directory.GetFiles(folder, "*.xml");
+
+            foreach (string putanja in files)
+            {
+                if (putanja == p)
+                {
+                    uspesno = true;
+                    break;
+                }
+                else {
+
+                    uspesno = false;
+                }
+
+            }
+
+            return uspesno;
         }
     }
 }
+
