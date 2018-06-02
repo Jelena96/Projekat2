@@ -14,25 +14,28 @@ namespace LocalControler
 {
     class Program
     {
+        private static IWriteAms proksi2;
         static void Main(string[] args)
         {
             Console.WriteLine("u kontroleru sam");
 
-            LocalControlerClass lc = new LocalControlerClass();
+            //LocalControlerClass lc = new LocalControlerClass();
+                    
 
-            
-            
-            
+
+
             OpenServer();
+            
+
             Console.WriteLine("Da li zelite da saljete AMS-u?");
             string unos = Console.ReadLine();
          
 
             if (unos == "da")
             {
-
-                bool uspesno = lc.ReadXML();
-                lc.DeleteControllers();
+                ConnectwithAMS();
+                bool uspesno = proksi2.ReadXML(); 
+                //lc.DeleteControllers();
             }
 
             Console.ReadLine();
@@ -45,8 +48,19 @@ namespace LocalControler
             NetTcpBinding binding = new NetTcpBinding();
             binding.TransactionFlow = true;
 
-            svc.AddServiceEndpoint(typeof(ILocalControler), binding, new Uri(String.Format("net.tcp://localhost:10100/LocalControlerClass")));
+            svc.AddServiceEndpoint(typeof(ILocalControler), binding, new Uri(String.Format("net.tcp://localhost:10101/LocalControlerClass")));
             svc.Open();
+
+        }
+
+         static void ConnectwithAMS()
+        {
+            NetTcpBinding binding = new NetTcpBinding();
+            binding.TransactionFlow = true;
+            ChannelFactory<IWriteAms> factory = new ChannelFactory<IWriteAms>(binding, new EndpointAddress(String.Format("net.tcp://localhost:10100/WriteAms")));
+
+            proksi2 = factory.CreateChannel();
+
 
         }
     }

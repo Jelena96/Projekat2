@@ -15,12 +15,11 @@ namespace Contracts
         
         long TimeStamp { get; set; }
 
-        [OperationContract]
-        bool ReadXML();
-        [OperationContract]
-        bool WriteAMSxml(string s);
-        [OperationContract]
-        bool WriteAMSxml2(LocalDeviceClass s);
+        //[OperationContract]
+        //bool ReadXML();
+        //[OperationContract]
+        //bool WriteAMSxml(string s);
+       
         [OperationContract]
         void Procitaj(LocalDeviceClass P);
         [OperationContract]

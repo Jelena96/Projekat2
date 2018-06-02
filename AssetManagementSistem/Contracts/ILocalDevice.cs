@@ -29,8 +29,8 @@ namespace Contracts
         bool CreateXML(string o);
         int AnalogActualValue { get; set; }
         int IdControler { get; set; }
-
        
+
     }
 
     [DataContract]
@@ -54,7 +54,10 @@ namespace Contracts
         public DeviceEnum ActualState { get; set; }
 
         
+        public LocalDeviceClass()
+        {
 
+        }
 
     }
 }

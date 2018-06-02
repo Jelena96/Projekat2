@@ -23,7 +23,9 @@ namespace LocalDevice
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
           public static LocalDeviceClass l;
         public static bool success = false;
+        
         private static ILocalControler proksi;
+        private static IWriteAms proksi2;
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
 
         /*private static DeviceEnum GetType3()
@@ -35,10 +37,21 @@ namespace LocalDevice
         private static void ConnectLC() {
             NetTcpBinding binding = new NetTcpBinding();
             binding.TransactionFlow = true;
-            ChannelFactory<ILocalControler> factory = new ChannelFactory<ILocalControler>(binding, new EndpointAddress(String.Format("net.tcp://localhost:10100/LocalControlerClass")));
+            ChannelFactory<ILocalControler> factory = new ChannelFactory<ILocalControler>(binding, new EndpointAddress(String.Format("net.tcp://localhost:10101/LocalControlerClass")));
 
             proksi = factory.CreateChannel();
             
+
+        }
+
+        private static void ConnectAMS()
+        {
+            NetTcpBinding binding = new NetTcpBinding();
+            binding.TransactionFlow = true;
+            ChannelFactory<IWriteAms> factory = new ChannelFactory<IWriteAms>(binding, new EndpointAddress(String.Format("net.tcp://localhost:10102/WriteAms")));
+
+            proksi2 = factory.CreateChannel();
+
 
         }
         private static int GetType1()
@@ -91,32 +104,32 @@ namespace LocalDevice
 
                     if (type == "A")
                     {
-                        Thread t = new Thread(new ThreadStart(() =>
-                        {
-                            while (true)
-                            {
+                        //Thread t = new Thread(new ThreadStart(() =>
+                        //{
+                            //while (true)
+                            //{
                                 l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
-                            }
+                        //    }
 
-                        }));
-                        t.IsBackground = true;
-                        t.Start();
+                        //}));
+                        //t.IsBackground = true;
+                        //t.Start();
 
-                    }
+            }
 
                     if (type == "D")
                     {
 
-                        Thread t = new Thread(new ThreadStart(() =>
-                        {
-                            while (true)
-                            {
+                        //Thread t = new Thread(new ThreadStart(() =>
+                        //{
+                        //    while (true)
+                        //    {
                                 l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
-                            }
+                        //    }
 
-                        }));
-                        t.IsBackground = true;
-                        t.Start();
+                        //}));
+                        //t.IsBackground = true;
+                        //t.Start();
                     }
 
                       //zavrsili sa deviceom
@@ -126,7 +139,6 @@ namespace LocalDevice
                     {
                         if (!DeviceDic.ContainsKey(idk))
                         {
-                            
                             DeviceDic.Add(idk,new List<LocalDeviceClass>());
                         }
 
@@ -139,13 +151,14 @@ namespace LocalDevice
                         }
                         path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
                         bool uspjesno = false;
-                        //Thread t = new Thread(new ThreadStart(() =>
-                        //{
+                        Thread t = new Thread(new ThreadStart(() =>
+                        {
+                              ConnectLC();
                             uspjesno=proksi.CreateXML(path,DeviceDic,l);
-                        //    Thread.Sleep(Timeout.Infinite);
-                        //}));
-                        //t.IsBackground = true;
-                        //t.Start();
+                           Thread.Sleep(Timeout.Infinite);
+                        }));
+                        t.IsBackground = true;
+                        t.Start();
                        
                     }
 
@@ -155,10 +168,10 @@ namespace LocalDevice
                         {
                             while (true)
                             {
-                                ConnectLC();
+                                ConnectAMS();
                                 //LocalDeviceClass.WriteAMSxml(l);
                                 //success = true;
-                                proksi.WriteAMSxml2(l);
+                                proksi2.WriteAMSxml2(l);
 
                                 //Thread.Sleep(10000);
                             }

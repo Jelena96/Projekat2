@@ -47,6 +47,7 @@
     <Compile Include="DeviceEnum.cs" />
     <Compile Include="ILocalControler.cs" />
     <Compile Include="ILocalDevice.cs" />
+    <Compile Include="IWriteAms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
