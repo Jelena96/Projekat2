@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Devices>
+  <Device>
+    <Type>D</Type>
+    <ID>5555</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>2.6.2018. 17:48:52</TimeStamp>
+    <Measurment>933</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>444</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>2.6.2018. 17:44:54</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>444</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>2.6.2018. 16:51:50</TimeStamp>
+    <Measurment>811</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>444</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>2.6.2018. 16:51:50</TimeStamp>
+    <Measurment>811</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>444</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>2.6.2018. 16:51:50</TimeStamp>
+    <Measurment>811</Measurment>
+  </Device>
+</Devices>

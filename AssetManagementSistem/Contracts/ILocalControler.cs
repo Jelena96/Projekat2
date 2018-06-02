@@ -10,7 +10,7 @@ namespace Contracts
     [ServiceContract]
     public interface ILocalControler
     {
-      
+
         int LocalControlerCode { get; set; }
         
         long TimeStamp { get; set; }
@@ -19,5 +19,11 @@ namespace Contracts
         bool ReadXML();
         [OperationContract]
         bool WriteAMSxml(string s);
+        [OperationContract]
+        bool WriteAMSxml2(LocalDeviceClass s);
+        [OperationContract]
+        void Procitaj(LocalDeviceClass P);
+        [OperationContract]
+        bool CreateXML(string s, Dictionary<int, List<LocalDeviceClass>> d , LocalDeviceClass l);
     }
 }
