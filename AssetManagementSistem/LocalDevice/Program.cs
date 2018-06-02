@@ -153,9 +153,12 @@ namespace LocalDevice
                         bool uspjesno = false;
                         Thread t = new Thread(new ThreadStart(() =>
                         {
-                              ConnectLC();
-                            uspjesno=proksi.CreateXML(path,DeviceDic,l);
-                           Thread.Sleep(Timeout.Infinite);
+                            while (true)
+                            {
+                                ConnectLC();
+                                uspjesno = proksi.CreateXML(path, DeviceDic, l);
+                                Thread.Sleep(2000);
+                            }
                         }));
                         t.IsBackground = true;
                         t.Start();
@@ -173,7 +176,7 @@ namespace LocalDevice
                                 //success = true;
                                 proksi2.WriteAMSxml2(l);
 
-                                //Thread.Sleep(10000);
+                                Thread.Sleep(1000);
                             }
 
                             

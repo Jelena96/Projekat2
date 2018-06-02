@@ -10,6 +10,7 @@ using System.Xml;
 using System.Windows;
 using System.Xml.Linq;
 using System.Runtime.Serialization;
+using System.Threading;
 
 namespace LocalControler
 {
@@ -270,41 +271,111 @@ namespace LocalControler
                         foreach (LocalDeviceClass d in item.Value)
                         {
 
-                            XDocument xDocument = XDocument.Load(p1);
+                            XDocument xDocument = null;
+
+                            bool savesuccess = false;
+                            while (!savesuccess)
+                            {
+                                try
+                                {
+                                    xDocument = XDocument.Load(p1);
+                                    savesuccess = true;
+                                }
+                                catch (Exception e)
+                                {
+                                    //Console.WriteLine($"{e.Message}\n{e.StackTrace}");
+                                    Thread.Sleep(100);
+                                }
+                            }
+
                             XElement root = xDocument.Element("Devices");
-                            IEnumerable<XElement> rows = root.Descendants("Device");
-                            XElement firstRow = rows.First();
 
-
-                            if (d.DeviceType == "A")
+                            Thread t = new Thread(new ThreadStart(() =>
                             {
+                                IEnumerable<XElement> rows = root.Descendants("Device");
+                                XElement firstRow = rows.First();
 
-                                firstRow.AddBeforeSelf(
-                                    new XElement("Device",
-                                    new XElement("Type", d.DeviceType.ToString()),
-                                    new XElement("ID", d.LocalDeviceCode.ToString()),
-                                    new XElement("SendTo", d.SendTo.ToString()),
-                                    new XElement("ActualValue", d.ActualValue.ToString()),
-                                    new XElement("ActualState", d.ActualState.ToString()),
-                                    new XElement("TimeStamp", d.TimeStamp.ToString()),
-                                    new XElement("Measurment", d.AnalogActualValue.ToString())));
-                            }
 
-                            if (d.DeviceType == "D")
-                            {
+                                if (d.DeviceType == "A")
+                                {
 
-                                firstRow.AddBeforeSelf(
-                                     new XElement("Device",
-                                     new XElement("Type", d.DeviceType.ToString()),
-                                     new XElement("ID", d.LocalDeviceCode.ToString()),
-                                     new XElement("SendTo", d.SendTo.ToString()),
-                                     new XElement("ActualValue", d.ActualValue.ToString()),
-                                     new XElement("ActualState", d.ActualState.ToString()),
-                                     new XElement("TimeStamp", d.TimeStamp.ToString()),
-                                     new XElement("Measurment", d.AnalogActualValue.ToString())));
+                                    firstRow.AddBeforeSelf(
+                                        new XElement("Device",
+                                        new XElement("Type", d.DeviceType.ToString()),
+                                        new XElement("ID", d.LocalDeviceCode.ToString()),
+                                        new XElement("SendTo", d.SendTo.ToString()),
+                                        new XElement("ActualValue", d.ActualValue.ToString()),
+                                        new XElement("ActualState", d.ActualState.ToString()),
+                                        new XElement("TimeStamp", d.TimeStamp.ToString()),
+                                        new XElement("Measurment", d.AnalogActualValue.ToString())));
+                                }
 
-                            }
-                            xDocument.Save(p1);
+                                if (d.DeviceType == "D")
+                                {
+
+                                    firstRow.AddBeforeSelf(
+                                         new XElement("Device",
+                                         new XElement("Type", d.DeviceType.ToString()),
+                                         new XElement("ID", d.LocalDeviceCode.ToString()),
+                                         new XElement("SendTo", d.SendTo.ToString()),
+                                         new XElement("ActualValue", d.ActualValue.ToString()),
+                                         new XElement("ActualState", d.ActualState.ToString()),
+                                         new XElement("TimeStamp", d.TimeStamp.ToString()),
+                                         new XElement("Measurment", d.AnalogActualValue.ToString())));
+
+                                }
+
+                                /*bool*/ savesuccess = false;
+                                while (!savesuccess)
+                                {
+                                    try
+                                    {
+                                        xDocument.Save(p1);
+                                        savesuccess = true;
+                                    } catch (Exception e)
+                                    {
+                                        //Console.WriteLine($"{e.Message}\n{e.StackTrace}");
+                                        Thread.Sleep(100);
+                                    }
+                                }
+                            
+                                Thread.Sleep(3000);
+                            }));
+                            t.IsBackground = true;
+                            t.Start();
+                            //IEnumerable<XElement> rows = root.Descendants("Device");
+                            //XElement firstRow = rows.First();
+
+
+                            //if (d.DeviceType == "A")
+                            //{
+
+                            //    firstRow.AddBeforeSelf(
+                            //        new XElement("Device",
+                            //        new XElement("Type", d.DeviceType.ToString()),
+                            //        new XElement("ID", d.LocalDeviceCode.ToString()),
+                            //        new XElement("SendTo", d.SendTo.ToString()),
+                            //        new XElement("ActualValue", d.ActualValue.ToString()),
+                            //        new XElement("ActualState", d.ActualState.ToString()),
+                            //        new XElement("TimeStamp", d.TimeStamp.ToString()),
+                            //        new XElement("Measurment", d.AnalogActualValue.ToString())));
+                            //}
+
+                            //if (d.DeviceType == "D")
+                            //{
+
+                            //    firstRow.AddBeforeSelf(
+                            //         new XElement("Device",
+                            //         new XElement("Type", d.DeviceType.ToString()),
+                            //         new XElement("ID", d.LocalDeviceCode.ToString()),
+                            //         new XElement("SendTo", d.SendTo.ToString()),
+                            //         new XElement("ActualValue", d.ActualValue.ToString()),
+                            //         new XElement("ActualState", d.ActualState.ToString()),
+                            //         new XElement("TimeStamp", d.TimeStamp.ToString()),
+                            //         new XElement("Measurment", d.AnalogActualValue.ToString())));
+
+                            //}
+                            //xDocument.Save(p1);
                         }
                     }
                 }

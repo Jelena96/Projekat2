@@ -32,7 +32,12 @@ namespace AssetManagementSistem
         //}
 
 
+        private static int GetType2()
+        {
 
+            Random ran = new Random();
+            return ran.Next(1, 1000);
+        }
 
         public bool WriteAMSxml2(LocalDeviceClass device)
         {
@@ -65,7 +70,7 @@ namespace AssetManagementSistem
 
                         if (device.DeviceType == "A")
                         {
-                            writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());
+                            writer.WriteElementString("Measurment", GetType2().ToString());
                         }
                         else if (device.DeviceType == "D")
                         {
@@ -91,6 +96,18 @@ namespace AssetManagementSistem
                 IEnumerable<XElement> rows = root.Descendants("Device");
                 XElement firstRow = rows.First();
 
+                int meas_value = 0;
+                if (device.DeviceType == "A")
+                {
+                    //writer.WriteElementString("Measurment", GetType2().ToString());
+                    meas_value = GetType2();
+                }
+                else if (device.DeviceType == "D")
+                {
+                    //writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());\
+                    meas_value = GetType2() % 2;
+                }
+
                 firstRow.AddBeforeSelf(
                     new XElement("Device",
                     new XElement("Type", device.DeviceType),
@@ -99,7 +116,8 @@ namespace AssetManagementSistem
                     new XElement("ActualValue", device.ActualValue),
                     new XElement("ActualState", device.ActualState),
                     new XElement("TimeStamp", device.TimeStamp.ToString()),
-                    new XElement("Measurment", device.AnalogActualValue.ToString())));
+                    new XElement("Measurment", meas_value)));
+
 
                 xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
             }

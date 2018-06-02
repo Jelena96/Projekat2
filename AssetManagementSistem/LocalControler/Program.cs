@@ -9,6 +9,7 @@ using LocalDevice;
 using System.IO;
 using System.Xml;
 using System.Windows.Controls;
+using System.Threading;
 
 namespace LocalControler
 {
@@ -33,9 +34,17 @@ namespace LocalControler
 
             if (unos == "da")
             {
-                ConnectwithAMS();
-                bool uspesno = proksi2.ReadXML(); 
+               
                 //lc.DeleteControllers();
+
+                Thread t = new Thread(new ThreadStart(() =>
+                {
+                    ConnectwithAMS();
+                    bool uspesno = proksi2.ReadXML();
+                    Thread.Sleep(10000);
+                }));
+                t.IsBackground = true;
+                t.Start();
             }
 
             Console.ReadLine();
