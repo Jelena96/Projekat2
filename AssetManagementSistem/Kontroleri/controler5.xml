@@ -2,38 +2,47 @@
 <Devices>
   <Device>
     <Type>A</Type>
-    <ID>444</ID>
+    <ID>3</ID>
     <SendTo>LC</SendTo>
     <ActualValue>on</ActualValue>
     <ActualState>close</ActualState>
-    <TimeStamp>2.6.2018 22:04:53</TimeStamp>
-    <Measurment>641</Measurment>
+    <TimeStamp>5.6.2018 19:21:10</TimeStamp>
+    <Measurment>206</Measurment>
   </Device>
   <Device>
     <Type>A</Type>
-    <ID>55</ID>
+    <ID>3</ID>
     <SendTo>LC</SendTo>
     <ActualValue>on</ActualValue>
     <ActualState>close</ActualState>
-    <TimeStamp>2.6.2018 21:34:29</TimeStamp>
-    <Measurment>747</Measurment>
+    <TimeStamp>5.6.2018 19:21:10</TimeStamp>
+    <Measurment>206</Measurment>
   </Device>
   <Device>
     <Type>A</Type>
-    <ID>55</ID>
+    <ID>3</ID>
     <SendTo>LC</SendTo>
     <ActualValue>on</ActualValue>
     <ActualState>close</ActualState>
-    <TimeStamp>2.6.2018 21:34:29</TimeStamp>
-    <Measurment>747</Measurment>
+    <TimeStamp>5.6.2018 19:21:10</TimeStamp>
+    <Measurment>206</Measurment>
   </Device>
   <Device>
     <Type>A</Type>
-    <ID>55</ID>
+    <ID>3</ID>
     <SendTo>LC</SendTo>
     <ActualValue>on</ActualValue>
     <ActualState>close</ActualState>
-    <TimeStamp>2.6.2018 21:34:29</TimeStamp>
-    <Measurment>747</Measurment>
+    <TimeStamp>5.6.2018 19:21:10</TimeStamp>
+    <Measurment>206</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>3</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>5.6.2018 19:21:10</TimeStamp>
+    <Measurment>206</Measurment>
   </Device>
 </Devices>

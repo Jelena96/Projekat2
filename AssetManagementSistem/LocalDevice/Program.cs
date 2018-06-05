@@ -62,7 +62,7 @@ namespace LocalDevice
         private static int GetType2()
         {
 
-            return ran.Next(1, 1000);
+            return ran.Next(1, 300);
         }
 
         static void Main(string[] args)
