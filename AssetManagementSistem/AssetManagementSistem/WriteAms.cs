@@ -36,7 +36,7 @@ namespace AssetManagementSistem
         {
 
             Random ran = new Random();
-            return ran.Next(1, 1000);
+            return ran.Next(1, 300);
         }
 
         public bool WriteAMSxml2(LocalDeviceClass device)

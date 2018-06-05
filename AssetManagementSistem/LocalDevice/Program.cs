@@ -18,7 +18,7 @@ namespace LocalDevice
     {
         //public static IEnumerable<int> Range(int start,int count);
         private static readonly Random ran = new Random();
-        
+        private static List<string> aktivniKontroleri = new List<string>();
         public static List<int> ids = new List<int>();
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
         public static LocalDeviceClass l;
@@ -72,7 +72,7 @@ namespace LocalDevice
         private static int GetType2()
         {
 
-            return ran.Next(1, 1000);
+            return ran.Next(1, 300);
         }
 
         public static int GetHashCode2()
@@ -123,51 +123,35 @@ namespace LocalDevice
 
                     }
 
-
-
-                    Console.WriteLine("Unesi id zeljenog kontrolera:");
-                    idk = int.Parse(Console.ReadLine());
-
                     Console.WriteLine("Unesi kome zelis da saljes podatke");
                     string salji = Console.ReadLine();
 
-                    
+                  
 
-                    if (type == "A")
-                    {
-                        //Thread t = new Thread(new ThreadStart(() =>
-                        //{
-                            //while (true)
-                            //{
-                                l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
-                        //    }
 
-                        //}));
-                        //t.IsBackground = true;
-                        //t.Start();
-
-                     }
-
-                    if (type == "D")
-                    {
-
-                        //Thread t = new Thread(new ThreadStart(() =>
-                        //{
-                        //    while (true)
-                        //    {
-                                l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
-                        //    }
-
-                        //}));
-                        //t.IsBackground = true;
-                        //t.Start();
-                    }
 
                       //zavrsili sa deviceom
                 
                     
                     if (salji == "LC")
                     {
+
+                        IzlistajKontrolere();
+                        Console.WriteLine("Unesi id zeljenog kontrolera:");
+                        idk = int.Parse(Console.ReadLine());
+
+                        if (type == "A")
+                        {
+
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
+                        }
+
+                        if (type == "D")
+                        {
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
+
+                        }
+
                         if (!DeviceDic.ContainsKey(idk))
                         {
                             DeviceDic.Add(idk,new List<LocalDeviceClass>());
@@ -198,6 +182,19 @@ namespace LocalDevice
 
                  else if(salji=="AMS")
                     {
+
+                        if (type == "A")
+                        {
+
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
+                        }
+
+                        if (type == "D")
+                        {
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
+
+                        }
+
                         Thread t = new Thread(new ThreadStart(() =>
                         {
                             while (true)
@@ -232,6 +229,40 @@ namespace LocalDevice
 
             Console.ReadLine();
 
+
+        }
+
+        public static void IzlistajKontrolere()
+        {
+
+            string[] p;
+            string ime = null;
+            string folder = @"..\..\..\Kontroleri";
+            string[] files = Directory.GetFiles(folder, "*.xml");
+
+            if (files.Length == 0)
+            {
+                Console.WriteLine("Ne postoji xml file");
+
+            }
+            else
+            {
+                Console.WriteLine("***Postoje kontroleri:***");
+                foreach (var file in files)
+                {
+                    p = file.Split('\\');
+                    ime = p[4].Substring(0, p[4].Length - 4);
+                    aktivniKontroleri.Add(ime);
+
+                    foreach (var item in aktivniKontroleri)
+                    {
+                        Console.WriteLine("{0}", item);
+                    }
+                    aktivniKontroleri.Remove(ime);
+                }
+
+
+            }
 
         }
 

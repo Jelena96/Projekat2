@@ -15,7 +15,7 @@
             <ColumnDefinition Width="23*"/>
             <ColumnDefinition Width="769*"/>
         </Grid.ColumnDefinitions>
-        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="399" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2" SelectionChanged="tabControl_SelectionChanged">
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="802" Grid.ColumnSpan="2" SelectionChanged="tabControl_SelectionChanged" Margin="-10,10,0,0" Grid.RowSpan="2">
 
             <TabItem Header="Details">
                 <Grid Background="#1c6ba0">
@@ -36,13 +36,19 @@
 
                 </Grid>
             </TabItem>
-            <TabItem Header="Graphic">
-                <Grid>
-                    <Button x:Name="dugmeGrafik" Content="Show" HorizontalAlignment="Left" Margin="158,30,0,0" VerticalAlignment="Top" Width="152" Height="40"/>
 
+            <TabItem Header="Data_Chart">
+                <Grid Background="#FFE5E5E5" Margin="0,-4,-12,-5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="126*"/>
+                        <ColumnDefinition Width="269*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="textBoxGraph" HorizontalAlignment="Left" Height="32" Margin="154,16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Grid.ColumnSpan="2"/>
+                    <Label x:Name="label1" Content="Insert ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,16,0,0" Width="86"/>
+                    <Canvas Name="graph" HorizontalAlignment="Left" Height="301" Margin="38,53,0,0" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="2" RenderTransformOrigin="0.525,0.538"/>
+                    <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="114,16,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
                 </Grid>
-
-            </TabItem>
+            </TabItem> >
             <TabItem Header="Working Hours">
                 <Grid>
                     <TextBlock Text="Broj radnih sati" Margin="26,18,585,327"/>
