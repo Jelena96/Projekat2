@@ -62,7 +62,7 @@ namespace AssetManagementSistem
                          xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
                         Console.WriteLine(str);
                         string[] stringArray = str.Split(' ');
-                        if (Int32.Parse(stringArray[2]) == id)
+                        if (Int32.Parse(stringArray[2]) == id && stringArray[0]=="A")
                         {
 
                             DeviceType = stringArray[0];
