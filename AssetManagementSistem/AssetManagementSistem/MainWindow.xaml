@@ -12,8 +12,8 @@
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="23*"/>
-            <ColumnDefinition Width="769*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="410" VerticalAlignment="Top" Width="802" Grid.ColumnSpan="2" SelectionChanged="tabControl_SelectionChanged" Margin="-10,10,0,0" Grid.RowSpan="2">
 
@@ -49,8 +49,12 @@
                     <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="405,10,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
                     <Label Content="From:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="33,10,0,0" VerticalAlignment="Top" Width="45"/>
                     <Label Content="To:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="216,10,0,0" VerticalAlignment="Top" Width="30"/>
-                    <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="83,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="83"/>
-                    <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="251,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="83,10,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.469,-0.8">
+                        <DatePicker x:Name="dp" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="267,11,0,0" VerticalAlignment="Top" Width="112">
+                        <DatePicker x:Name="dp1" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
+                    </StackPanel>
                 </Grid>
             </TabItem> >
             <TabItem Header="Working Hours">

@@ -163,7 +163,12 @@ namespace LocalControler
             Console.WriteLine("Uredjaj"+P.DeviceType + "" +P.LocalDeviceCode);
         }
 
+        private static int GetType2()
+        {
 
+            Random ran = new Random();
+            return ran.Next(1, 300);
+        }
 
         // public bool CreateXML(string p1, Dictionary<int,List<LocalDeviceClass>> dic,int d)
         public bool CreateXML(string p1, Dictionary<int, List<LocalDeviceClass>> dic, LocalDeviceClass di)
@@ -185,7 +190,7 @@ namespace LocalControler
                             writer.WriteStartDocument();
                             writer.WriteStartElement("Devices");
 
-                            while (j != 3)
+                            while (j != 5)
                             {
 
                                 foreach (LocalDeviceClass d in item.Value)
@@ -198,21 +203,27 @@ namespace LocalControler
 
                                     //Enum.GetName(typeof(DeviceEnum), e);
 
+                                    int meas_value = 0;
+                                    if (d.DeviceType == "A")
+                                    {
+                                        //writer.WriteElementString("Measurment", GetType2().ToString());
+                                        meas_value = GetType2();
+                                    }
+                                    else if (d.DeviceType == "D")
+                                    {
+                                        //writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());\
+                                        meas_value = GetType2() % 2;
+                                    }
+
+
+
                                     writer.WriteElementString("Type", d.DeviceType);
                                     writer.WriteElementString("ID", d.LocalDeviceCode.ToString());
                                     writer.WriteElementString("SendTo", d.SendTo);
                                     writer.WriteElementString("ActualValue", d.ActualValue.ToString());
                                     writer.WriteElementString("ActualState", d.ActualState.ToString());
                                     writer.WriteElementString("TimeStamp", d.TimeStamp.ToString());
-
-                                    if (d.DeviceType == "A")
-                                    {
-                                        writer.WriteElementString("Measurment", d.AnalogActualValue.ToString());
-                                    }
-                                    else if (d.DeviceType == "D")
-                                    {
-                                        writer.WriteElementString("Measurment", d.AnalogActualValue.ToString());
-                                    }
+                                    writer.WriteElementString("Measurment", meas_value.ToString());
                                     writer.WriteEndElement();
                                     
 
@@ -343,39 +354,7 @@ namespace LocalControler
                             }));
                             t.IsBackground = true;
                             t.Start();
-                            //IEnumerable<XElement> rows = root.Descendants("Device");
-                            //XElement firstRow = rows.First();
 
-
-                            //if (d.DeviceType == "A")
-                            //{
-
-                            //    firstRow.AddBeforeSelf(
-                            //        new XElement("Device",
-                            //        new XElement("Type", d.DeviceType.ToString()),
-                            //        new XElement("ID", d.LocalDeviceCode.ToString()),
-                            //        new XElement("SendTo", d.SendTo.ToString()),
-                            //        new XElement("ActualValue", d.ActualValue.ToString()),
-                            //        new XElement("ActualState", d.ActualState.ToString()),
-                            //        new XElement("TimeStamp", d.TimeStamp.ToString()),
-                            //        new XElement("Measurment", d.AnalogActualValue.ToString())));
-                            //}
-
-                            //if (d.DeviceType == "D")
-                            //{
-
-                            //    firstRow.AddBeforeSelf(
-                            //         new XElement("Device",
-                            //         new XElement("Type", d.DeviceType.ToString()),
-                            //         new XElement("ID", d.LocalDeviceCode.ToString()),
-                            //         new XElement("SendTo", d.SendTo.ToString()),
-                            //         new XElement("ActualValue", d.ActualValue.ToString()),
-                            //         new XElement("ActualState", d.ActualState.ToString()),
-                            //         new XElement("TimeStamp", d.TimeStamp.ToString()),
-                            //         new XElement("Measurment", d.AnalogActualValue.ToString())));
-
-                            //}
-                            //xDocument.Save(p1);
                         }
                     }
                 }

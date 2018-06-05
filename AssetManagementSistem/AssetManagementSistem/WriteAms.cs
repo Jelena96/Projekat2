@@ -178,7 +178,7 @@ namespace AssetManagementSistem
             string SendTo = stringArray[4];
             string ActualValue = stringArray[5];
             string ActualState = stringArray[7];
-            string TimeStamp = stringArray[9] + stringArray[10];
+            string TimeStamp = stringArray[9] +" "+stringArray[10];
             string Measurment = stringArray[12];
             success = true;
 

@@ -68,9 +68,22 @@ namespace AssetManagementSistem
 
             graph.Children.Clear();  //ocistimo sve sto je bilo
 
-            Device d = new Device(Int32.Parse(textBoxGraph.Text));
+            //DateTime? selectedDate = dp.SelectedDate;
+            //if (selectedDate.HasValue)
+            //{
+            //    string formatted = selectedDate.Value.ToString("dd.MM.yyyy", System.Globalization.CultureInfo.InvariantCulture);
+            //}
+
+            DateTime help = (DateTime)dp.SelectedDate;
+            DateTime help1 = (DateTime)dp1.SelectedDate;
+
+            int timestamp1 = (Int32)(help.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            int timestamp2 = (Int32)(help1.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+
+            Device d = new Device(Int32.Parse(textBoxGraph.Text),timestamp1,timestamp2);
             int brMjerenja = d.BrMjerenja;
             List<int> mjerenja = d.Measurments;                        // mjerenja ucitana iz log fajla
+           
             
                 double width = graph.Width;   //sirina kanvasa u kom se nalazi graf
                 double widthBar = 20; //sirinabara 20
@@ -79,7 +92,7 @@ namespace AssetManagementSistem
                 Line x_osa = new Line();                                // crtam x osu
                 x_osa.X1 = 30;  //OK 30
                 x_osa.X2 = width - 50;  //OK 50
-                x_osa.Y1 =398;    //350
+                x_osa.Y1 = 398;    //350
                 x_osa.Y2 = 398;   //350  gleda odozgo
                 x_osa.Stroke = Brushes.Black; //koje boje je linija
                 x_osa.StrokeThickness = 2;
@@ -137,30 +150,31 @@ namespace AssetManagementSistem
 
                 if (brMjerenja <= 100)   // maskimalno se prikazuje 100 merenja, ako ih ima vise, onda prikazujem poslednjih 35
                 {
-                foreach (int m in mjerenja)
-                {
-                   
+                    foreach (int m in mjerenja)
+                    {
+
                         Rectangle bar = new Rectangle();                            // za svako merenje potrebno je napraviti jedan bar
                         bar.Width = widthBar;                                     // definisanje sirine widthBar
                         bar.Height = m;                                          // definisanje visine (-37 da bi se ljepse uklopilo u visinu prozora)
 
-                                     // ako je vrijednost izvan opsega bar je ljubicast, ako je dobra onda je bijel
-                       
+                        // ako je vrijednost izvan opsega bar je ljubicast, ako je dobra onda je bijel
+
                         bar.Fill = Brushes.Blue;
-                       
-                       
+
+
 
 
                         graph.Children.Add(bar);                                    // dodavanje novog djeteta canvasu
                         Canvas.SetBottom(bar, 18);                                   // pozicioniranje na odgovarajuce mjesto na canvasu
                         Canvas.SetLeft(bar, mjesto + 3);
                         mjesto += widthBar + 5;                                 // pomjeranje pozicije za crtanje sledeceg bara
-                    //}
-                }
+                                                                                //}
+                    }
                 }
 
-            }
-
+            
         }
+
+    }
     
 }

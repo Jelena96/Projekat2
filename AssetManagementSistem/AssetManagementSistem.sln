@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetManagementSistem", "AssetManagementSistem\AssetManagementSistem.csproj", "{63658135-D78F-4C98-B22C-10183005584D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{C0DEF597-F944-4734-ADA7-826540D81E4A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalControler", "LocalControler\LocalControler.csproj", "{F74B81A9-592B-4301-947A-3BD285B94BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDeviceTest", "LocalDeviceTest\LocalDeviceTest.csproj", "{D5108D93-0049-4E04-8E80-8E05F5F02DE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
