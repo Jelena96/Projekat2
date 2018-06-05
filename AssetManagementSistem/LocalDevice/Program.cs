@@ -126,11 +126,7 @@ namespace LocalDevice
                     Console.WriteLine("Unesi kome zelis da saljes podatke");
                     string salji = Console.ReadLine();
 
-                  
 
-
-
-                      //zavrsili sa deviceom
                 
                     
                     if (salji == "LC")
