@@ -43,10 +43,14 @@
                         <ColumnDefinition Width="126*"/>
                         <ColumnDefinition Width="269*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="textBoxGraph" HorizontalAlignment="Left" Height="32" Margin="154,16,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Grid.ColumnSpan="2"/>
-                    <Label x:Name="label1" Content="Insert ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,16,0,0" Width="86"/>
+                    <TextBox x:Name="textBoxGraph" HorizontalAlignment="Left" Height="26" Margin="114,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+                    <Label x:Name="label1" Content="Insert ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,10,0,0" Width="86"/>
                     <Canvas Name="graph" HorizontalAlignment="Left" Height="301" Margin="38,53,0,0" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="2" RenderTransformOrigin="0.525,0.538"/>
-                    <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="114,16,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
+                    <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="405,10,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
+                    <Label Content="From:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="33,10,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label Content="To:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="216,10,0,0" VerticalAlignment="Top" Width="30"/>
+                    <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="83,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="83"/>
+                    <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="251,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94"/>
                 </Grid>
             </TabItem> >
             <TabItem Header="Working Hours">
