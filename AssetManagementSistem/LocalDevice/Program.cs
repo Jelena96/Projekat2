@@ -21,9 +21,10 @@ namespace LocalDevice
         
         public static List<int> ids = new List<int>();
         public static List<LocalDeviceClass> ld = new List<LocalDeviceClass>();
-          public static LocalDeviceClass l;
+        public static LocalDeviceClass l;
         public static bool success = false;
-        
+        public static int hash = 45;
+        private static int id;
         private static ILocalControler proksi;
         private static IWriteAms proksi2;
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
@@ -54,7 +55,16 @@ namespace LocalDevice
 
 
         }
-        private static int GetType1()
+
+        public class SomeType
+        {
+            public override int GetHashCode()
+            {
+                return base.GetHashCode();
+            }
+        }
+
+            private static int GetType1()
         {
 
             return ran.Next(0, 1);
@@ -65,9 +75,16 @@ namespace LocalDevice
             return ran.Next(1, 1000);
         }
 
+        public static int GetHashCode2()
+        {
+            return Int32.MaxValue.GetHashCode();
+        }
+
         static void Main(string[] args)
         {
-            LocalDeviceClass1 lo = new LocalDeviceClass1();
+      
+
+        LocalDeviceClass1 lo = new LocalDeviceClass1();
         string path = "";
             string type = "";
             int idk = 0;
@@ -78,7 +95,7 @@ namespace LocalDevice
                 {
                     ld.Clear();
                 }
-              
+             
                 Console.WriteLine("Unesi tip zeljenog uredjaja:");
                 type = Console.ReadLine();
                 if (type == "A" || type == "D")
@@ -87,20 +104,34 @@ namespace LocalDevice
 
                     Console.WriteLine("Unesi id uredjaja");
                     int id = int.Parse(Console.ReadLine());
-                    while(ids.Contains(id))
-                    {
-                        Console.WriteLine("Ponovo unesite ID uredjaja,uneseni vec postoji");
-                        id = int.Parse(Console.ReadLine());
-                    }
-                    ids.Add(id);
+           
+                    SomeType s = new SomeType();
+                    string text = ReadIdXml();
+                    string rd = "";
                    
+                    if (text.Contains(id.ToString()))
+                    {
+                        Console.WriteLine("Vec postoji, dodeljujem mu HASH vrednost");
+                        id = s.GetHashCode();
+
+                    }
+                    else
+                    {
+
+                        WriteIdXml(id);
+                        ids.Add(id);
+
+                    }
+
+
 
                     Console.WriteLine("Unesi id zeljenog kontrolera:");
                     idk = int.Parse(Console.ReadLine());
-                    
+
                     Console.WriteLine("Unesi kome zelis da saljes podatke");
                     string salji = Console.ReadLine();
 
+                    
 
                     if (type == "A")
                     {
@@ -115,7 +146,7 @@ namespace LocalDevice
                         //t.IsBackground = true;
                         //t.Start();
 
-            }
+                     }
 
                     if (type == "D")
                     {
@@ -202,6 +233,95 @@ namespace LocalDevice
             Console.ReadLine();
 
 
+        }
+
+        public static void WriteIdXml(int id)
+        {
+
+
+            if (!File.Exists(@"..\..\..\BazaId\Id.xml"))
+            {
+                using (XmlWriter writer = XmlWriter.Create(@"..\..\..\BazaId\Id.xml"))
+                {
+
+
+                    writer.WriteStartDocument();
+                    writer.WriteStartElement("Devices");
+                    writer.WriteStartElement("Device");
+
+                    writer.WriteElementString("iD", id.ToString());
+
+                    writer.WriteEndElement();
+
+                    writer.WriteEndElement();
+                    writer.WriteEndDocument();
+
+
+                }
+
+            }
+            else
+            {
+                XDocument xDocument = XDocument.Load(@"..\..\..\BazaId\Id.xml");
+                XElement root = xDocument.Element("Devices");
+                IEnumerable<XElement> rows = root.Descendants("Device");
+                XElement firstRow = rows.First();
+
+
+
+                firstRow.AddBeforeSelf(
+                    new XElement("Device",
+                    new XElement("iD",id.ToString())));
+
+
+                xDocument.Save(@"..\..\..\BazaId\Id.xml");
+            }
+
+
+        }
+
+
+
+        public static string ReadIdXml()
+        {
+            string text = "";
+            bool uspesno = false;
+            string folder = @"..\..\..\BazaId";
+            string[] files = Directory.GetFiles(folder, "*.xml");
+
+            if (files == null)
+            {
+                uspesno = false;
+            }
+            else
+            {
+                uspesno = true;
+
+                foreach (string putanja in files)
+                {
+                    XmlDataDocument xmldoc = new XmlDataDocument();
+                    XmlNodeList xmlnode;
+                    int i = 0;
+                    string str = null;
+                    FileStream fs = new FileStream(putanja, FileMode.Open, FileAccess.Read);
+                    xmldoc.Load(fs);
+                    xmlnode = xmldoc.GetElementsByTagName("Device");
+                    for (i = 0; i <= xmlnode.Count - 1; i++)
+                    {
+                        uspesno = true;
+                        xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
+                        str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
+                       // Console.WriteLine(str);
+                        text += str;
+
+                    }
+
+                    fs.Close();
+
+                }
+            }
+
+            return text;
         }
     }
 }
