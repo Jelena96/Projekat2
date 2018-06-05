@@ -95,7 +95,8 @@ namespace LocalDevice
                 {
                     ld.Clear();
                 }
-             
+
+                Console.WriteLine("Unos novog uredjaja");
                 Console.WriteLine("Unesi tip zeljenog uredjaja:");
                 type = Console.ReadLine();
                 if (type == "A" || type == "D")
@@ -123,96 +124,117 @@ namespace LocalDevice
 
                     }
 
-                    Console.WriteLine("Unesi kome zelis da saljes podatke");
-                    string salji = Console.ReadLine();
+                    Console.WriteLine("Da li zelite da promenite stanje uredjaja? (ukoliko zelite odgovorite sa: da)");
 
-                  
-
-
-
-                      //zavrsili sa deviceom
-                
-                    
-                    if (salji == "LC")
+                    string promena = Console.ReadLine();
+                    if (promena == "da")
                     {
-
-                        IzlistajKontrolere();
-                        Console.WriteLine("Unesi id zeljenog kontrolera:");
-                        idk = int.Parse(Console.ReadLine());
-
+                       // promene++;
+                        Console.WriteLine("Promenili ste stanje");
                         if (type == "A")
                         {
 
-                            l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.off, ActualState = DeviceEnum.close };
                         }
 
                         if (type == "D")
                         {
-                            l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
+                            l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.off, ActualState = DeviceEnum.close, AnalogActualValue = GetType1() };
 
                         }
 
-                        if (!DeviceDic.ContainsKey(idk))
-                        {
-                            DeviceDic.Add(idk,new List<LocalDeviceClass>());
-                        }
-
-                        foreach (KeyValuePair<int, List<LocalDeviceClass>> item in DeviceDic)
-                        {
-                            if (item.Key == idk)
-                            {
-                                item.Value.Add(l);
-                            }
-                        }
-                        path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
-                        bool uspjesno = false;
-                        Thread t = new Thread(new ThreadStart(() =>
-                        {
-                            while (true)
-                            {
-                                ConnectLC();
-                                uspjesno = proksi.CreateXML(path, DeviceDic, l);
-                                Thread.Sleep(2000);
-                            }
-                        }));
-                        t.IsBackground = true;
-                        t.Start();
-                       
                     }
-
-                 else if(salji=="AMS")
+                    else
                     {
 
-                        if (type == "A")
+                        
+                        Console.WriteLine("Unesi kome zelis da saljes podatke");
+                        string salji = Console.ReadLine();
+
+
+
+
+                    if (salji == "LC")
                         {
 
-                            l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
-                        }
+                            IzlistajKontrolere();
+                            Console.WriteLine("Unesi id zeljenog kontrolera:");
+                            idk = int.Parse(Console.ReadLine());
 
-                        if (type == "D")
-                        {
-                            l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
-
-                        }
-
-                        Thread t = new Thread(new ThreadStart(() =>
-                        {
-                            while (true)
+                            if (type == "A")
                             {
-                                ConnectAMS();
+
+                                l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
+                            }
+
+                            if (type == "D")
+                            {
+                                l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
+
+                            }
+
+                            if (!DeviceDic.ContainsKey(idk))
+                            {
+                                DeviceDic.Add(idk, new List<LocalDeviceClass>());
+                            }
+
+                            foreach (KeyValuePair<int, List<LocalDeviceClass>> item in DeviceDic)
+                            {
+                                if (item.Key == idk)
+                                {
+                                    item.Value.Add(l);
+                                }
+                            }
+                            path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
+                            bool uspjesno = false;
+                            Thread t = new Thread(new ThreadStart(() =>
+                            {
+                                while (true)
+                                {
+                                    ConnectLC();
+                                    uspjesno = proksi.CreateXML(path, DeviceDic, l);
+                                    Thread.Sleep(2000);
+                                }
+                            }));
+                            t.IsBackground = true;
+                            t.Start();
+
+                        }
+
+                        else if (salji == "AMS")
+                        {
+
+                            if (type == "A")
+                            {
+
+                                l = new LocalDeviceClass() { LocalDeviceCode = id, IdControler = idk, DeviceType = type, TimeStamp = DateTime.Now, AnalogActualValue = GetType2(), ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, SendTo = salji };
+                            }
+
+                            if (type == "D")
+                            {
+                                l = new LocalDeviceClass() { LocalDeviceCode = id, DeviceType = type, IdControler = idk, TimeStamp = DateTime.Now, ActualValue = DeviceEnum.on, ActualState = DeviceEnum.close, AnalogActualValue = GetType1(), SendTo = salji };
+
+                            }
+
+                            Thread t = new Thread(new ThreadStart(() =>
+                            {
+                                while (true)
+                                {
+                                    ConnectAMS();
                                 //LocalDeviceClass.WriteAMSxml(l);
                                 //success = true;
                                 proksi2.WriteAMSxml2(l);
 
-                                Thread.Sleep(1000);
-                            }
+                                    Thread.Sleep(1000);
+                                }
 
-                            
-                        }));
 
-                        t.IsBackground = true;
-                        t.Start();
-                            
+                            }));
+
+                            t.IsBackground = true;
+                            t.Start();
+
+                        }
                     }
                 }
                 else
