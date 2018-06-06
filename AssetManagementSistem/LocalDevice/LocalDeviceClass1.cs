@@ -36,9 +36,8 @@ namespace LocalDevice
 
         public void PromenaStanja(int id,int idk,string type, LocalDeviceClass l,string promena) {
 
-            
-            
-            
+
+
 
         }
         

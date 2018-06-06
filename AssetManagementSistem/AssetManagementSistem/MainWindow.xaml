@@ -38,7 +38,7 @@
                     <StackPanel HorizontalAlignment="Left" Height="75" Margin="0,183,0,0" VerticalAlignment="Top" Width="97" Grid.Column="1">
                         <DatePicker x:Name="dp3" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
                     </StackPanel>
-                    <TextBox  x:Name="textBoxDetalji" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="0,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" Grid.ColumnSpan="2"/>
+                    <TextBox  x:Name="textBoxDetalji" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="0,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" Grid.ColumnSpan="2" />
                     <Button x:Name="buttonShowDetails" Content="Show details" HorizontalAlignment="Left" Height="39" Margin="57,293,0,0" VerticalAlignment="Top" Width="121" Click="buttonShowDetails_Click_1" Grid.ColumnSpan="2"/>
 
                 </Grid>

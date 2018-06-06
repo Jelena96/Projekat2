@@ -179,6 +179,8 @@ namespace AssetManagementSistem
         private void buttonShowDetails_Click_1(object sender, RoutedEventArgs e)
         {
             int suma = 0;
+            textBoxChanges.Clear();
+            textBoxSummary.Clear();
 
             DateTime help3 = (DateTime)dp2.SelectedDate;
             DateTime help4 = (DateTime)dp3.SelectedDate;
@@ -198,5 +200,7 @@ namespace AssetManagementSistem
             textBoxSummary.Text += "Suma svih mjerenja uredjaja sa ID-jem " + Int32.Parse(textBoxDetalji.Text) + " je: " + suma;
 
         }
+
+        
     }
 }
