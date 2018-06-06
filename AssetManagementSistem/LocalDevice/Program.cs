@@ -84,7 +84,7 @@ namespace LocalDevice
         {
       
 
-        LocalDeviceClass1 lo = new LocalDeviceClass1();
+        
         string path = "";
             string type = "";
             int idk = 0;
@@ -147,12 +147,8 @@ namespace LocalDevice
                     else
                     {
 
-                        
                         Console.WriteLine("Unesi kome zelis da saljes podatke");
                         string salji = Console.ReadLine();
-
-
-
 
                     if (salji == "LC")
                         {
