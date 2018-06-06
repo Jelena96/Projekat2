@@ -28,8 +28,8 @@
                     <TextBlock HorizontalAlignment="Left" Margin="15,183,0,0" TextWrapping="Wrap" Text="To:" VerticalAlignment="Top" RenderTransformOrigin="-0.067,2.875"/>
                     <TextBlock HorizontalAlignment="Left" Margin="14,42,0,0" TextWrapping="Wrap" Text="Device ID" VerticalAlignment="Top" Height="22" Width="62"/>
 
-                    <TextBox x:Name="textBoxChanges"  Grid.Column="2" Margin="81,37,116,95"   ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-                    <TextBox x:Name="textBoxSummary" Margin="81,324,116,10" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+                    <TextBox x:Name="textBoxChanges"  Grid.Column="2" Margin="81,37,116,95"  IsReadOnly="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+                    <TextBox x:Name="textBoxSummary" IsReadOnly="True" Margin="81,324,116,10" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" />
                     <TextBlock TextWrapping="Wrap" Text="Changes" Margin="255,10,224,343" Grid.Column="2"/>
                     <TextBlock TextWrapping="Wrap" Text="Summary" Margin="269,293,210,60" Grid.Column="2"/>
                     <StackPanel HorizontalAlignment="Left" Height="73" Margin="0,93,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.505,0.575" Grid.Column="1">
@@ -38,8 +38,10 @@
                     <StackPanel HorizontalAlignment="Left" Height="75" Margin="0,183,0,0" VerticalAlignment="Top" Width="97" Grid.Column="1">
                         <DatePicker x:Name="dp3" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
                     </StackPanel>
-                    <TextBox  x:Name="textBoxDetalji" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="0,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" Grid.ColumnSpan="2" />
-                    <Button x:Name="buttonShowDetails" Content="Show details" HorizontalAlignment="Left" Height="39" Margin="57,293,0,0" VerticalAlignment="Top" Width="121" Click="buttonShowDetails_Click_1" Grid.ColumnSpan="2"/>
+                    <TextBox  x:Name="textBoxDetalji" Grid.Column="1" HorizontalAlignment="Left" Height="27" Margin="0,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="112" />
+                    <Button x:Name="buttonShowDetails" Content="Show details" HorizontalAlignment="Left" Height="39" Margin="67,329,0,0" VerticalAlignment="Top" Width="121" Click="buttonShowDetails_Click_1" Grid.ColumnSpan="2"/>
+                    <Button Content="Change state" HorizontalAlignment="Left" Height="28" Margin="12,290,0,0" VerticalAlignment="Top" Width="85" Click="Button_Click" Grid.Column="1"/>
+                    <Label Grid.ColumnSpan="3" Content="Do you want to change state of device?" HorizontalAlignment="Left" Height="32" Margin="26,258,0,0" VerticalAlignment="Top" Width="219"/>
 
                 </Grid>
             </TabItem>
@@ -47,27 +49,31 @@
             <TabItem Header="Data_Chart">
                 <Grid Background="#FFE5E5E5" Margin="0,-4,-12,-5">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="126*"/>
-                        <ColumnDefinition Width="269*"/>
+                        <ColumnDefinition Width="177*"/>
+                        <ColumnDefinition Width="79*"/>
+                        <ColumnDefinition Width="548*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBox x:Name="textBoxGraph" HorizontalAlignment="Left" Height="26" Margin="114,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+                    <TextBox x:Name="textBoxGraph" HorizontalAlignment="Left" Height="26" Margin="114,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142" Grid.ColumnSpan="2"/>
                     <Label x:Name="label1" Content="Insert ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="38,10,0,0" Width="86"/>
-                    <Canvas Name="graph" HorizontalAlignment="Left" Height="301" Margin="38,53,0,0" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="2" RenderTransformOrigin="0.525,0.538"/>
-                    <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="405,10,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
-                    <Label Content="From:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="33,10,0,0" VerticalAlignment="Top" Width="45"/>
-                    <Label Content="To:" Grid.Column="1" HorizontalAlignment="Left" Height="26" Margin="216,10,0,0" VerticalAlignment="Top" Width="30"/>
-                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="83,10,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.469,-0.8">
+                    <Canvas Name="graph" HorizontalAlignment="Left" Height="301" Margin="38,53,0,0" VerticalAlignment="Top" Width="732" Grid.ColumnSpan="3" RenderTransformOrigin="0.525,0.538"/>
+                    <Button x:Name="buttonShowGraph" Content="Show" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="405,10,0,0" VerticalAlignment="Top" Width="98" Click="buttonShowGraph_Click"/>
+                    <Label Content="From:" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="33,10,0,0" VerticalAlignment="Top" Width="45"/>
+                    <Label Content="To:" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="216,10,0,0" VerticalAlignment="Top" Width="30"/>
+                    <StackPanel Grid.Column="2" HorizontalAlignment="Left" Height="60" Margin="83,10,0,0" VerticalAlignment="Top" Width="128" RenderTransformOrigin="0.469,-0.8">
                         <DatePicker x:Name="dp" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
                     </StackPanel>
-                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Height="60" Margin="267,11,0,0" VerticalAlignment="Top" Width="112">
+                    <StackPanel Grid.Column="2" HorizontalAlignment="Left" Height="60" Margin="267,11,0,0" VerticalAlignment="Top" Width="112">
                         <DatePicker x:Name="dp1" DisplayDateStart="2018-06-01" DisplayDateEnd="2018-06-08" IsDropDownOpen="True"/>
                     </StackPanel>
                 </Grid>
             </TabItem> >
             <TabItem Header="Working Hours">
                 <Grid>
-                    <TextBlock Text="Broj radnih sati" Margin="26,18,585,327"/>
-                    <TextBox Margin="26,44,654,267"/>
+
+                    <DataGrid HorizontalAlignment="Left" Height="378" VerticalAlignment="Top" Width="792"/>
+                    <Label Content="Broj radnih sati za izabrani uredjaj je:" HorizontalAlignment="Left" Height="44" Margin="257,81,0,0" VerticalAlignment="Top" Width="216"/>
+                    <TextBox x:Name="textBoxSati" HorizontalAlignment="Left" Height="71" Margin="299,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="119"/>
+                    <Button x:Name="buttonRadniSati" Content="Show" HorizontalAlignment="Left" Height="39" Margin="317,234,0,0" VerticalAlignment="Top" Width="88" Click="buttonRadniSati_Click"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Over Limit">

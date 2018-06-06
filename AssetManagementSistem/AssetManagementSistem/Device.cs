@@ -12,8 +12,7 @@ namespace AssetManagementSistem
     public class Device
     {
         public int LocalDeviceCode { get; set; }
-    
-       
+
         public DateTime TimeStamp { get; set; }
 
         public int AnalogActualValue { get; set; }
@@ -28,6 +27,7 @@ namespace AssetManagementSistem
 
         public  List<int> Measurments { get; set; }
         public   int BrMjerenja { get; set; }
+        public int BrPromjena { get; set; }
 
         public Device(int id,int t1,int t2)
         {
@@ -67,7 +67,6 @@ namespace AssetManagementSistem
                         string[] stringArray = str.Split(' ');
                         if (Int32.Parse(stringArray[2]) == id && stringArray[0]=="A")
                         {
-
                             DeviceType = stringArray[0];
                             LocalDeviceCode = Int32.Parse(stringArray[2]);
                             SendTo = stringArray[4];
@@ -84,15 +83,18 @@ namespace AssetManagementSistem
                                 Measurments.Add(AnalogActualValue);
                                 BrMjerenja++;
                             }
-                            
                         }
-
                     }
 
                     fs.Close();
 
                 }
             }
+        }
+
+       public Device()
+        {
+
         }
 
 

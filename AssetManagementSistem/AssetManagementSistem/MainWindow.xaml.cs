@@ -68,11 +68,7 @@ namespace AssetManagementSistem
 
             graph.Children.Clear();  //ocistimo sve sto je bilo
 
-            //DateTime? selectedDate = dp.SelectedDate;
-            //if (selectedDate.HasValue)
-            //{
-            //    string formatted = selectedDate.Value.ToString("dd.MM.yyyy", System.Globalization.CultureInfo.InvariantCulture);
-            //}
+            
 
             DateTime help = (DateTime)dp.SelectedDate;
             DateTime help1 = (DateTime)dp1.SelectedDate;
@@ -175,10 +171,15 @@ namespace AssetManagementSistem
 
         }
 
+        public static bool isbuttonclicked = false;
+        public static bool isradnisaticlick = false;
+        public static string pom = "on";
+        public static int globalTimestamp = 0;
 
         private void buttonShowDetails_Click_1(object sender, RoutedEventArgs e)
         {
-            int suma = 0;
+            
+            long suma = 0;
             textBoxChanges.Clear();
             textBoxSummary.Clear();
 
@@ -187,20 +188,46 @@ namespace AssetManagementSistem
 
             int timestamp3 = (Int32)(help3.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
             int timestamp4 = (Int32)(help4.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-
+            
             Device d = new Device(Int32.Parse(textBoxDetalji.Text), timestamp3, timestamp4);
             List<int> mjerenja = d.Measurments;
 
+            if (isbuttonclicked)
+            {
+                if (pom == "on")
+                    pom = "off";
+                else if (pom == "off")
+                    pom = "on";
+            }
+
+            
+            globalTimestamp = (Int32)(d.TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+
             for (int i = 0; i < mjerenja.Count; i++) //da bi bili sortirani uredjaji 
             {
-               textBoxChanges.Text += "Actual state: " + d.ActualState + "| Actual value: " + d.ActualValue  + "| Measurment: " + i + "\n";
-                suma += i;
+               textBoxChanges.Text += "Actual state: " + d.ActualState + "| Actual value: " + pom  + "| Measurment: " + mjerenja[i] + "\n";
+                suma += mjerenja[i];
             }
 
             textBoxSummary.Text += "Suma svih mjerenja uredjaja sa ID-jem " + Int32.Parse(textBoxDetalji.Text) + " je: " + suma;
+            isbuttonclicked = false;
 
         }
 
-        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            isbuttonclicked = true;
+        }
+
+        public static string pomocna5 = "";
+        public static int timestamp5 = 0;
+        private void buttonRadniSati_Click(object sender, RoutedEventArgs e)
+        {
+            isradnisaticlick = true;
+            DateTime danas = DateTime.Now;
+            int timestamp5 = (Int32)(danas.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+            int Ispis = timestamp5 - globalTimestamp;
+            textBoxSati.Text = Ispis.ToString();
+        }
     }
 }
