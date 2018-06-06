@@ -34,129 +34,6 @@ namespace LocalControler
 
         }
 
-       //public bool ReadXML()
-       // {
-       //     bool uspesno = false;
-       //     string folder = @"..\..\..\Kontroleri";
-       //     string[] files = Directory.GetFiles(folder, "*.xml");
-
-       //     if (files == null)
-       //     {
-       //         uspesno = false;
-       //     }
-       //     else
-       //     {
-       //         uspesno = true;
-
-       //         foreach (string putanja in files)
-       //         {
-       //             XmlDataDocument xmldoc = new XmlDataDocument();
-       //             XmlNodeList xmlnode;
-       //             int i = 0;
-       //             string str = null;
-       //             FileStream fs = new FileStream(putanja, FileMode.Open, FileAccess.Read);
-       //             xmldoc.Load(fs);
-       //             xmlnode = xmldoc.GetElementsByTagName("Device");
-       //             for (i = 0; i <= xmlnode.Count - 1; i++)
-       //             {
-       //                 uspesno = true;
-       //                 xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
-       //                 str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim()+" "+
-       //                  xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
-       //                 Console.WriteLine(str);
-       //                 WriteAMSxml(str);
-       //             }
-
-       //             fs.Close();
-                
-       //         }
-       //     }
-
-       //     return uspesno;
-       // }
-
-       // public bool WriteAMSxml(string s)
-       // {
-       //     bool uspesno = false;
-
-       //     string[] stringArray = s.Split(' ');
-       //     string Type = stringArray[0];
-       //     string Id = stringArray[2].ToString();
-       //     string SendTo = stringArray[4];
-       //     string ActualValue = stringArray[5];
-       //     string ActualState = stringArray[7];
-       //     string TimeStamp = stringArray[9] + stringArray[10];
-       //     string Measurment = stringArray[12];
-       //     success = true;
-
-       //     if (!File.Exists(@"..\..\..\AMSBaza\AMS.xml"))
-       //     {
-
-
-
-       //         using (XmlWriter writer = XmlWriter.Create(@"..\..\..\AMSBaza\AMS.xml"))
-       //         {
-       //             writer.WriteStartDocument();
-       //             writer.WriteStartElement("Devices");
-
-
-       //             writer.WriteStartElement("Device");
-
-       //             writer.WriteElementString("Type", Type);
-       //             writer.WriteElementString("ID", Id);
-       //             writer.WriteElementString("SendTo", SendTo);
-       //             writer.WriteElementString("ActualValue", ActualValue);
-       //             writer.WriteElementString("ActualState", ActualState);
-       //             writer.WriteElementString("TimeStamp", TimeStamp);
-       //             writer.WriteElementString("Measurment", Measurment);
-
-       //             writer.WriteEndElement();
-
-       //             writer.WriteEndElement();
-       //             writer.WriteEndDocument();
-       //         }
-
-       //     }
-       //     else
-       //     {
-       //         XDocument xDocument = XDocument.Load(@"..\..\..\AMSBaza\AMS.xml");
-       //         XElement root = xDocument.Element("Devices");
-       //         IEnumerable<XElement> rows = root.Descendants("Device");
-       //         XElement firstRow = rows.First();
-
-       //         firstRow.AddBeforeSelf(
-       //             new XElement("Device",
-       //             new XElement("Type", Type),
-       //             new XElement("ID", Id),
-       //             new XElement("SendTo", SendTo),
-       //             new XElement("ActualValue", ActualValue),
-       //             new XElement("ActualState", ActualState),
-       //             new XElement("TimeStamp", TimeStamp),
-       //             new XElement("Measurment", Measurment)));
-
-       //         xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
-       //     }
-       //     return uspesno;
-       // }
-
-       // public void DeleteControllers() {
-
-       //     string folder = @"..\..\..\Kontroleri";
-       //     string[] files = Directory.GetFiles(folder, "*.xml");
-
-       //     if (success)
-       //     {
-
-       //         foreach (string putanja in files)
-       //         {
-
-       //             File.Delete(putanja);
-
-
-
-       //         }
-       //     }
-       // }
 
         public void Procitaj(Contracts.LocalDeviceClass P) {
 
@@ -190,12 +67,13 @@ namespace LocalControler
                             writer.WriteStartDocument();
                             writer.WriteStartElement("Devices");
 
+
                             while (j != 5)
                             {
 
                                 foreach (LocalDeviceClass d in item.Value)
                                 {
-                               
+
 
                                     writer.WriteStartElement("Device");
                                     //Enum e = device.ActualValue;
@@ -225,7 +103,7 @@ namespace LocalControler
                                     writer.WriteElementString("TimeStamp", d.TimeStamp.ToString());
                                     writer.WriteElementString("Measurment", meas_value.ToString());
                                     writer.WriteEndElement();
-                                    
+
 
                                 }
                                 j++;
@@ -236,39 +114,40 @@ namespace LocalControler
                         }
 
 
+
+
+
                     }
 
 
-                }
+                    string[] p;
+                    string ime = null;
+                    string folder = @"..\..\..\Kontroleri";
+                    string[] files = Directory.GetFiles(folder, "*.xml");
 
-
-                string[] p;
-                string ime = null;
-                string folder = @"..\..\..\Kontroleri";
-                string[] files = Directory.GetFiles(folder, "*.xml");
-
-                if (files.Length == 0)
-                {
-                    Console.WriteLine("Ne postoji xml file");
-
-                }
-                else
-                {
-                    Console.WriteLine("***Postoje kontroleri:***");
-                    foreach (var file in files)
+                    if (files.Length == 0)
                     {
-                        p = file.Split('\\');
-                        ime = p[4].Substring(0, p[4].Length - 4);
-                        aktivniKontroleri.Add(ime);
+                        Console.WriteLine("Ne postoji xml file");
 
-                        foreach (var item in aktivniKontroleri)
-                        {
-                            Console.WriteLine("{0}", item);
-                        }
-                        aktivniKontroleri.Remove(ime);
                     }
+                    else
+                    {
+                        Console.WriteLine("***Postoje kontroleri:***");
+                        foreach (var file in files)
+                        {
+                            p = file.Split('\\');
+                            ime = p[4].Substring(0, p[4].Length - 4);
+                            aktivniKontroleri.Add(ime);
+
+                            foreach (var item in aktivniKontroleri)
+                            {
+                                Console.WriteLine("{0}", item);
+                            }
+                            aktivniKontroleri.Remove(ime);
+                        }
 
 
+                    }
                 }
             }
             else
@@ -336,20 +215,22 @@ namespace LocalControler
 
                                 }
 
-                                /*bool*/ savesuccess = false;
+                                /*bool*/
+                                savesuccess = false;
                                 while (!savesuccess)
                                 {
                                     try
                                     {
                                         xDocument.Save(p1);
                                         savesuccess = true;
-                                    } catch (Exception e)
+                                    }
+                                    catch (Exception e)
                                     {
                                         //Console.WriteLine($"{e.Message}\n{e.StackTrace}");
                                         Thread.Sleep(100);
                                     }
                                 }
-                            
+
                                 Thread.Sleep(3000);
                             }));
                             t.IsBackground = true;

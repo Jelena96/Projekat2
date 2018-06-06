@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Cont
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalControler", "LocalControler\LocalControler.csproj", "{F74B81A9-592B-4301-947A-3BD285B94BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDeviceTest", "LocalDeviceTest\LocalDeviceTest.csproj", "{D5108D93-0049-4E04-8E80-8E05F5F02DE4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F74B81A9-592B-4301-947A-3BD285B94BDA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D5108D93-0049-4E04-8E80-8E05F5F02DE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

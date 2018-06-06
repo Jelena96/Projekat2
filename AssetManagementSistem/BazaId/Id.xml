@@ -2,6 +2,7 @@
 <Devices>
   <Device>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <iD>2233</iD>
   </Device>
   <Device>
@@ -21,11 +22,24 @@
   </Device>
   <Device>
     <iD>22</iD>
+=======
+    <iD>890</iD>
+  </Device>
+  <Device>
+    <iD>788</iD>
+  </Device>
+  <Device>
+    <iD>6777</iD>
+  </Device>
+  <Device>
+    <iD>97</iD>
+>>>>>>> c7c97a3dd1248c02b29c777a502ba646be33248b
   </Device>
   <Device>
     <iD>55</iD>
   </Device>
   <Device>
+<<<<<<< HEAD
     <iD>33</iD>
   </Device>
   <Device>
@@ -34,6 +48,8 @@
   <Device>
     <iD>77</iD>
 =======
+=======
+>>>>>>> c7c97a3dd1248c02b29c777a502ba646be33248b
     <iD>8</iD>
 >>>>>>> 81a0f13033552f9ee07a03536d556d3a5ecf2af1
   </Device>
