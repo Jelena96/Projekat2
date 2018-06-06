@@ -16,37 +16,41 @@ namespace LocalControler
     class Program
     {
         private static IWriteAms proksi2;
+        private static int idk;
+        public static List<string> aktivniKontroleri = new List<string>();
         static void Main(string[] args)
         {
             Console.WriteLine("u kontroleru sam");
 
-            //LocalControlerClass lc = new LocalControlerClass();
-                    
-
-
+            LocalControlerClass lc = new LocalControlerClass();
 
             OpenServer();
-            
 
-            Console.WriteLine("Da li zelite da saljete AMS-u?");
-            string unos = Console.ReadLine();
+            IzlistajKontrolere();
+            int unos = 0;
+            Console.WriteLine();
          
+            Console.WriteLine("koji kontroler zelite da upalite:");
+            idk = int.Parse(Console.ReadLine());
 
-            if (unos == "da")
-            {
-               
-                //lc.DeleteControllers();
+           
+                string path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
+                //string s = path.Split('\');
+
+                lc.LocalControlerCode = idk;
+                lc.TimeStamp = 2635;
+
 
                 Thread t = new Thread(new ThreadStart(() =>
                 {
                     ConnectwithAMS();
-                    bool uspesno = proksi2.ReadXML();
+                    bool uspesno = proksi2.ReadXML(path);
+                    
                     Thread.Sleep(10000);
                 }));
                 t.IsBackground = true;
                 t.Start();
-            }
-
+            
             Console.ReadLine();
             
         }
@@ -70,6 +74,40 @@ namespace LocalControler
 
             proksi2 = factory.CreateChannel();
 
+
+        }
+
+        public static void IzlistajKontrolere()
+        {
+
+            string[] p;
+            string ime = null;
+            string folder = @"..\..\..\Kontroleri";
+            string[] files = Directory.GetFiles(folder, "*.xml");
+
+            if (files.Length == 0)
+            {
+                Console.WriteLine("Ne postoji xml file");
+
+            }
+            else
+            {
+                Console.WriteLine("***Postoje kontroleri:***");
+                foreach (var file in files)
+                {
+                    p = file.Split('\\');
+                    ime = p[4].Substring(0, p[4].Length - 4);
+                     aktivniKontroleri.Add(ime);
+
+                    foreach (var item in aktivniKontroleri)
+                    {
+                        Console.WriteLine("{0}", item);
+                    }
+                    aktivniKontroleri.Remove(ime);
+                }
+
+
+            }
 
         }
     }

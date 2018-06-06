@@ -29,11 +29,7 @@ namespace LocalDevice
         private static IWriteAms proksi2;
         public static Dictionary<int, List<LocalDeviceClass>> DeviceDic = new Dictionary<int, List<LocalDeviceClass>>();
 
-        /*private static DeviceEnum GetType3()
-        {
-            return (DeviceEnum)(ran.Next(0, 3));
-
-        }*/
+        
 
         private static void ConnectLC() {
             NetTcpBinding binding = new NetTcpBinding();
@@ -84,7 +80,7 @@ namespace LocalDevice
         {
       
 
-        LocalDeviceClass1 lo = new LocalDeviceClass1();
+        //LocalDeviceClass1 lo = new LocalDeviceClass1();
         string path = "";
             string type = "";
             int idk = 0;

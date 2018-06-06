@@ -127,43 +127,31 @@ namespace AssetManagementSistem
 
 
 
-        public bool ReadXML()
+        public bool ReadXML(string putanja)
         {
             bool uspesno = false;
-            string folder = @"..\..\..\Kontroleri";
-            string[] files = Directory.GetFiles(folder, "*.xml");
-
-            if (files == null)
-            {
-                uspesno = false;
-            }
-            else
+           
+            XmlDataDocument xmldoc = new XmlDataDocument();
+            XmlNodeList xmlnode;
+            int i = 0;
+            string str = null;
+            FileStream fs = new FileStream(putanja, FileMode.Open, FileAccess.Read);
+            xmldoc.Load(fs);
+            xmlnode = xmldoc.GetElementsByTagName("Device");
+            for (i = 0; i <= xmlnode.Count - 1; i++)
             {
                 uspesno = true;
-
-                foreach (string putanja in files)
-                {
-                    XmlDataDocument xmldoc = new XmlDataDocument();
-                    XmlNodeList xmlnode;
-                    int i = 0;
-                    string str = null;
-                    FileStream fs = new FileStream(putanja, FileMode.Open, FileAccess.Read);
-                    xmldoc.Load(fs);
-                    xmlnode = xmldoc.GetElementsByTagName("Device");
-                    for (i = 0; i <= xmlnode.Count - 1; i++)
-                    {
-                        uspesno = true;
-                        xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
-                        str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim() + " " +
-                         xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
-                        Console.WriteLine(str);
-                        WriteAMSxml(str);
-                    }
-
-                    fs.Close();
-
-                }
+                xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
+                str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim() + " " +
+                 xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
+                Console.WriteLine(str);
+                WriteAMSxml(str);
             }
+
+            fs.Close();
+            File.Delete(putanja);
+            //}
+            //}
 
             return uspesno;
         }
