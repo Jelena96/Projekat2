@@ -14,7 +14,7 @@ namespace AssetManagementSistem
         public int LocalDeviceCode { get; set; }
     
        
-        public string TimeStamp { get; set; }
+        public DateTime TimeStamp { get; set; }
 
         public int AnalogActualValue { get; set; }
       
@@ -29,14 +29,17 @@ namespace AssetManagementSistem
         public  List<int> Measurments { get; set; }
         public   int BrMjerenja { get; set; }
 
-        public Device(int id)
+        public Device(int id,int t1,int t2)
         {
             BrMjerenja = 0;
             Measurments = new List<int>();
+            string pomocni = "";
+            string pom = "";
+            int timestamp = 0;
             bool uspesno = false;
             string folder = @"..\..\..\AMSBaza";
             string[] files = Directory.GetFiles(folder, "*.xml");
-
+           
             if (files == null)
             {
                 uspesno = false;
@@ -70,10 +73,18 @@ namespace AssetManagementSistem
                             SendTo = stringArray[4];
                             ActualValue = stringArray[5];
                             ActualState = stringArray[7];
-                            TimeStamp = stringArray[9] + stringArray[10];
+                            pomocni = stringArray[9] +" "+ stringArray[10];
+                            TimeStamp = DateTime.Parse(pomocni);
+                            pom=TimeStamp.ToString("dd/MM/yyyy");
+                            TimeStamp = DateTime.Parse(pom);
                             AnalogActualValue = Int32.Parse(stringArray[12]);
-                            Measurments.Add(AnalogActualValue);
-                            BrMjerenja++;
+                            timestamp = (Int32)(TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+                            if (timestamp >= t1 && timestamp <= t2)
+                            {
+                                Measurments.Add(AnalogActualValue);
+                                BrMjerenja++;
+                            }
+                            
                         }
 
                     }

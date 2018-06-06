@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
   <Device>
+<<<<<<< HEAD
     <iD>2233</iD>
   </Device>
   <Device>
@@ -32,32 +33,11 @@
   </Device>
   <Device>
     <iD>77</iD>
+=======
+    <iD>8</iD>
+>>>>>>> 81a0f13033552f9ee07a03536d556d3a5ecf2af1
   </Device>
   <Device>
     <iD>12</iD>
-  </Device>
-  <Device>
-    <iD>99</iD>
-  </Device>
-  <Device>
-    <iD>6</iD>
-  </Device>
-  <Device>
-    <iD>2</iD>
-  </Device>
-  <Device>
-    <iD>5</iD>
-  </Device>
-  <Device>
-    <iD>10</iD>
-  </Device>
-  <Device>
-    <iD>9</iD>
-  </Device>
-  <Device>
-    <Id>8</Id>
-  </Device>
-  <Device>
-    <iD>4</iD>
   </Device>
 </Devices>
