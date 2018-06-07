@@ -33,6 +33,7 @@ namespace LocalControler
             caseSwitch = int.Parse(Console.ReadLine());
 
         }
+
         static void Main(string[] args)
         {
 
