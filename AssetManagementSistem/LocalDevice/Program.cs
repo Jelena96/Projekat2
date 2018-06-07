@@ -103,7 +103,7 @@ namespace LocalDevice
            
                     SomeType s = new SomeType();
                     string text = ReadIdXml();
-                    string rd = "";
+                    
                    
                     if (text.Contains(id.ToString()))
                     {
@@ -329,17 +329,17 @@ namespace LocalDevice
         public static string ReadIdXml()
         {
             string text = "";
-            bool uspesno = false;
+            
             string folder = @"..\..\..\BazaId";
             string[] files = Directory.GetFiles(folder, "*.xml");
 
             if (files == null)
             {
-                uspesno = false;
+                
             }
             else
             {
-                uspesno = true;
+                
 
                 foreach (string putanja in files)
                 {
@@ -352,7 +352,7 @@ namespace LocalDevice
                     xmlnode = xmldoc.GetElementsByTagName("Device");
                     for (i = 0; i <= xmlnode.Count - 1; i++)
                     {
-                        uspesno = true;
+                        
                         xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
                         str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
                        // Console.WriteLine(str);

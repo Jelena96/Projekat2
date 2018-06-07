@@ -2,6 +2,7 @@
 using LocalControler;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.ServiceModel;
 using System.Text;
@@ -26,13 +27,27 @@ namespace AssetManagementSistem
     public partial class MainWindow : Window
     {
 
+        public static BindingList<Device> DevicesList { get; set; }
+        public static BindingList<Device> Devices { get; set; }
+        public static bool isbuttonclicked = false;
+        public static bool isradnisaticlick = false;
+        public static string pom = "on";
+        public static DateTime globalDate;
+        public static int brProm = 0;
 
 
         public MainWindow()
         {
+            DevicesList = new BindingList<Device>();
+            Devices = new BindingList<Device>();
+
+            DataContext = this;
             InitializeComponent();
             OpenServer();
             OpenServerFromDevice();
+            List<string> opcije = new List<string> { "Broj radnih sati", "Broj promjena" };
+            combobox.ItemsSource = opcije;
+           
         }
 
         void OpenServer()
@@ -68,7 +83,7 @@ namespace AssetManagementSistem
 
             graph.Children.Clear();  //ocistimo sve sto je bilo
 
-            
+
 
             DateTime help = (DateTime)dp.SelectedDate;
             DateTime help1 = (DateTime)dp1.SelectedDate;
@@ -76,7 +91,7 @@ namespace AssetManagementSistem
             int timestamp1 = (Int32)(help.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
             int timestamp2 = (Int32)(help1.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
 
-            Device d = new Device(Int32.Parse(textBoxGraph.Text), timestamp1, timestamp2);
+            Device d = new Device(Int32.Parse(textBoxGraph.Text), timestamp1, timestamp2,1);
             int brMjerenja = d.BrMjerenja;
             List<int> mjerenja = d.Measurments;                        // mjerenja ucitana iz log fajla
 
@@ -171,41 +186,46 @@ namespace AssetManagementSistem
 
         }
 
-        public static bool isbuttonclicked = false;
-        public static bool isradnisaticlick = false;
-        public static string pom = "on";
-        public static int globalTimestamp = 0;
+        public static int promjena = 0;
 
         private void buttonShowDetails_Click_1(object sender, RoutedEventArgs e)
         {
-            
+
             long suma = 0;
             textBoxChanges.Clear();
             textBoxSummary.Clear();
+            
 
             DateTime help3 = (DateTime)dp2.SelectedDate;
             DateTime help4 = (DateTime)dp3.SelectedDate;
 
             int timestamp3 = (Int32)(help3.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
             int timestamp4 = (Int32)(help4.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-            
-            Device d = new Device(Int32.Parse(textBoxDetalji.Text), timestamp3, timestamp4);
-            List<int> mjerenja = d.Measurments;
 
             if (isbuttonclicked)
             {
                 if (pom == "on")
+                {
+                    promjena++;
                     pom = "off";
+                }
                 else if (pom == "off")
+                {
+                    promjena++;
                     pom = "on";
+                }
             }
 
+            Device d = new Device(Int32.Parse(textBoxDetalji.Text), timestamp3, timestamp4,promjena);
+            List<int> mjerenja = d.Measurments;
+           
+            Devices.Add(d);
+            globalDate = d.RadniSati;
             
-            globalTimestamp = (Int32)(d.TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
 
             for (int i = 0; i < mjerenja.Count; i++) //da bi bili sortirani uredjaji 
             {
-               textBoxChanges.Text += "Actual state: " + d.ActualState + "| Actual value: " + pom  + "| Measurment: " + mjerenja[i] + "\n";
+                textBoxChanges.Text += "Actual state: " + d.ActualState + "| Actual value: " + pom + "| Measurment: " + mjerenja[i] + "\n";
                 suma += mjerenja[i];
             }
 
@@ -217,6 +237,7 @@ namespace AssetManagementSistem
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             isbuttonclicked = true;
+            
         }
 
         public static string pomocna5 = "";
@@ -224,10 +245,47 @@ namespace AssetManagementSistem
         private void buttonRadniSati_Click(object sender, RoutedEventArgs e)
         {
             isradnisaticlick = true;
-            DateTime danas = DateTime.Now;
-            int timestamp5 = (Int32)(danas.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-            int Ispis = timestamp5 - globalTimestamp;
-            textBoxSati.Text = Ispis.ToString();
+            textBoxSati.Text = globalDate.ToString().Substring(9);
+        }
+
+       
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+             
+        }
+
+        private void ButtonShow_Click(object sender, RoutedEventArgs e)
+        {
+            if (combobox.SelectedIndex==0)
+                {
+                    
+                     foreach(var device in Devices)
+                     {
+
+                        TimeSpan timeOfDay = device.RadniSati.TimeOfDay;
+                        int hour = timeOfDay.Hours;
+                        int minute = timeOfDay.Minutes;
+                        if (Int32.Parse(textBoxLimitSati.Text)<hour)
+                        {
+                            DevicesList.Add(device);
+                        }
+                     }
+
+                }else if(combobox.SelectedIndex==1)
+                {
+                 
+                    foreach (var device in Devices)
+                    {
+                        if (Int32.Parse(textBoxLimitPromene.Text) < device.BrPromjena)
+                        {
+                            DevicesList.Add(device);
+                        }
+                    }
+                }
+            
         }
     }
+    
+
 }
