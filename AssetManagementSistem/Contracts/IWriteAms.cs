@@ -13,8 +13,8 @@ namespace Contracts
         [OperationContract]
         bool WriteAMSxml2(LocalDeviceClass s);
         [OperationContract]
-        bool ReadXML(string p);
+        bool ReadXML(string p,int id, DateTime vreme);
         [OperationContract]
-        bool WriteAMSxml(string s);
+        bool WriteAMSxml(string s,int id, DateTime vreme);
     }
 }

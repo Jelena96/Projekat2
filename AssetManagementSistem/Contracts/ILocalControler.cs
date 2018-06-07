@@ -10,16 +10,9 @@ namespace Contracts
     [ServiceContract]
     public interface ILocalControler
     {
-
+  
         int LocalControlerCode { get; set; }
-        
-        long TimeStamp { get; set; }
-
-        //[OperationContract]
-        //bool ReadXML();
-        //[OperationContract]
-        //bool WriteAMSxml(string s);
-       
+        DateTime TimeStamp { get; set; }       
         [OperationContract]
         void Procitaj(LocalDeviceClass P);
         [OperationContract]

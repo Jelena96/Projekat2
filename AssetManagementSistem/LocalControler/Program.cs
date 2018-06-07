@@ -17,40 +17,89 @@ namespace LocalControler
     {
         private static IWriteAms proksi2;
         private static int idk;
+        public static string path;
+        public static int caseSwitch;
         public static List<string> aktivniKontroleri = new List<string>();
+
+        public static void Meni() {
+            LocalControlerClass lc = new LocalControlerClass();
+            Console.WriteLine(lc.ReadXMLTime().ToString());
+            Console.WriteLine("*******MENI********");
+            Console.WriteLine("1.Da li zelite da kreirate novi kontroler");
+            Console.WriteLine("2.Da li zelite da upalite  kontroler");
+            Console.WriteLine("Za kraj unosa, unesite 0");
+
+            caseSwitch = int.Parse(Console.ReadLine());
+
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("u kontroleru sam");
+
+
 
             LocalControlerClass lc = new LocalControlerClass();
 
             OpenServer();
+            Meni();
 
-            IzlistajKontrolere();
-            int unos = 0;
-            Console.WriteLine();
-         
-            Console.WriteLine("koji kontroler zelite da upalite:");
-            idk = int.Parse(Console.ReadLine());
-
-           
-                string path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
-                //string s = path.Split('\');
-
-                lc.LocalControlerCode = idk;
-                lc.TimeStamp = 2635;
-
-
-                Thread t = new Thread(new ThreadStart(() =>
+            do
+            {
+               
+                switch (caseSwitch)
                 {
-                    ConnectwithAMS();
-                    bool uspesno = proksi2.ReadXML(path);
-                    
-                    Thread.Sleep(10000);
-                }));
-                t.IsBackground = true;
-                t.Start();
-            
+                   
+                    case 1:
+
+
+                        Console.WriteLine("Koji kontroler zelite da kreirate:");
+                        idk = int.Parse(Console.ReadLine());
+                        path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
+                        lc.CreateXMLK(path);
+                        string[] p2 = path.Split('\\');
+                        string ime2 = p2[4].Substring(0, p2[4].Length - 4);
+                       
+                        Meni();
+                        break;
+
+
+
+                    case 2:
+
+                        
+                        Console.WriteLine("Koji kontroler zelite da upalite:");
+                        IzlistajKontrolere();
+                        idk = int.Parse(Console.ReadLine());
+                        path = @"..\..\..\Kontroleri\controler" + idk + ".xml";
+                        
+                        string[] p = path.Split('\\');
+                        string ime = p[4].Substring(0, p[4].Length - 4);
+                        aktivniKontroleri.Remove(ime);
+                        lc.LocalControlerCode = idk;
+                        lc.TimeStamp = DateTime.Now;
+                        bool success;
+
+                        Thread t = new Thread(new ThreadStart(() =>
+                        {
+                            while (true)
+                            {
+                                ConnectwithAMS();
+                                bool uspesno = proksi2.ReadXML(path, lc.LocalControlerCode, lc.TimeStamp);
+                                
+                                Thread.Sleep(lc.ReadXMLTime());
+                            }
+                            
+                        }));
+                        t.IsBackground = true;
+                        t.Start();
+
+
+                        
+
+                        Meni();
+                        break;
+                }
+            } while (caseSwitch != 0);
+            File.Delete(path);
             Console.ReadLine();
             
         }
@@ -85,6 +134,7 @@ namespace LocalControler
             string folder = @"..\..\..\Kontroleri";
             string[] files = Directory.GetFiles(folder, "*.xml");
 
+          
             if (files.Length == 0)
             {
                 Console.WriteLine("Ne postoji xml file");
@@ -108,6 +158,8 @@ namespace LocalControler
 
 
             }
+
+            
 
         }
     }

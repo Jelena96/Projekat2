@@ -1,59 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Devices>
   <Device>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <iD>2233</iD>
+    <iD>236</iD>
+  </Device>
+  <Device>
+    <iD>789</iD>
+  </Device>
+  <Device>
+    <iD>200</iD>
+  </Device>
+  <Device>
+    <iD>412</iD>
+  </Device>
+  <Device>
+    <iD>11112</iD>
+  </Device>
+  <Device>
+    <iD>4444</iD>
+  </Device>
+  <Device>
+    <iD>20</iD>
+  </Device>
+  <Device>
+    <iD>577</iD>
+  </Device>
+  <Device>
+    <iD>7777</iD>
+  </Device>
+  <Device>
+    <iD>8888</iD>
+  </Device>
+  <Device>
+    <iD>22</iD>
+  </Device>
+  <Device>
+    <iD>10</iD>
   </Device>
   <Device>
     <iD>233</iD>
   </Device>
   <Device>
-    <iD>339</iD>
-  </Device>
-  <Device>
-    <iD>8956</iD>
-  </Device>
-  <Device>
-    <iD>111</iD>
-  </Device>
-  <Device>
-    <iD>92</iD>
-  </Device>
-  <Device>
-    <iD>22</iD>
-=======
-    <iD>890</iD>
-  </Device>
-  <Device>
-    <iD>788</iD>
-  </Device>
-  <Device>
-    <iD>6777</iD>
-  </Device>
-  <Device>
-    <iD>97</iD>
->>>>>>> c7c97a3dd1248c02b29c777a502ba646be33248b
-  </Device>
-  <Device>
-    <iD>55</iD>
-  </Device>
-  <Device>
-<<<<<<< HEAD
-    <iD>33</iD>
-  </Device>
-  <Device>
-    <iD>66</iD>
-  </Device>
-  <Device>
     <iD>77</iD>
-=======
-=======
->>>>>>> c7c97a3dd1248c02b29c777a502ba646be33248b
-    <iD>8</iD>
->>>>>>> 81a0f13033552f9ee07a03536d556d3a5ecf2af1
   </Device>
   <Device>
-    <iD>12</iD>
+    <iD>88</iD>
+  </Device>
+  <Device>
+    <iD>56565</iD>
+  </Device>
+  <Device>
+    <iD>456</iD>
+  </Device>
+  <Device>
+    <iD>8999</iD>
+  </Device>
+  <Device>
+    <iD>4455</iD>
+  </Device>
+  <Device>
+    <iD>721</iD>
+  </Device>
+  <Device>
+    <iD>123</iD>
   </Device>
 </Devices>

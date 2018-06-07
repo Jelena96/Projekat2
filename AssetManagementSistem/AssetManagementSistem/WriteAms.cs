@@ -15,21 +15,9 @@ namespace AssetManagementSistem
     {
         public LocalDeviceClass lc = new LocalDeviceClass();
         public string kosam = "";
-
+        public static bool succes = false;
         bool success = false;
-        //public void PrimiObjekat(LocalDeviceClass o, string ko)
-        //{
-        //   if(kosam=="LD")
-        //    {
-        //        bool ajde = false;
-        //        ajde = WriteAMSxml2(o);
-        //    }
-        //    else
-        //    {
-        //        bool ajde = false;
-        //        ajde = ReadXML();
-        //    }
-        //}
+       
 
 
         private static int GetType2()
@@ -66,7 +54,7 @@ namespace AssetManagementSistem
                         writer.WriteElementString("SendTo", device.SendTo);
                         writer.WriteElementString("ActualValue", device.ActualValue.ToString());
                         writer.WriteElementString("ActualState", device.ActualState.ToString());
-                        writer.WriteElementString("TimeStamp", device.TimeStamp.ToString());
+                        writer.WriteElementString("TimeStamp", DateTime.Now.ToString());
 
                         if (device.DeviceType == "A")
                         {
@@ -99,12 +87,12 @@ namespace AssetManagementSistem
                 int meas_value = 0;
                 if (device.DeviceType == "A")
                 {
-                    //writer.WriteElementString("Measurment", GetType2().ToString());
+                   
                     meas_value = GetType2();
                 }
                 else if (device.DeviceType == "D")
                 {
-                    //writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());\
+                    
                     meas_value = GetType2() % 2;
                 }
 
@@ -115,7 +103,7 @@ namespace AssetManagementSistem
                     new XElement("SendTo", device.SendTo),
                     new XElement("ActualValue", device.ActualValue),
                     new XElement("ActualState", device.ActualState),
-                    new XElement("TimeStamp", device.TimeStamp.ToString()),
+                    new XElement("TimeStamp", DateTime.Now.ToString()),
                     new XElement("Measurment", meas_value)));
 
 
@@ -127,7 +115,7 @@ namespace AssetManagementSistem
 
 
 
-        public bool ReadXML(string putanja)
+        public bool ReadXML(string putanja,int id, DateTime datum)
         {
             bool uspesno = false;
            
@@ -145,18 +133,19 @@ namespace AssetManagementSistem
                 str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim() + " " +
                  xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
                 Console.WriteLine(str);
-                WriteAMSxml(str);
+                WriteAMSxml(str,id,datum);
+                succes = true;
             }
 
             fs.Close();
-            File.Delete(putanja);
+          
             //}
             //}
 
             return uspesno;
         }
 
-        public bool WriteAMSxml(string s)
+        public bool WriteAMSxml(string s,int id,DateTime vreme)
         {
             bool uspesno = false;
 
@@ -185,10 +174,10 @@ namespace AssetManagementSistem
 
                     writer.WriteElementString("Type", Type);
                     writer.WriteElementString("ID", Id);
-                    writer.WriteElementString("SendTo", SendTo);
+                    writer.WriteElementString("SendToLC", id.ToString()+"|"+vreme.ToString());
                     writer.WriteElementString("ActualValue", ActualValue);
                     writer.WriteElementString("ActualState", ActualState);
-                    writer.WriteElementString("TimeStamp", TimeStamp);
+                    writer.WriteElementString("TimeStamp", DateTime.Now.ToString());
                     writer.WriteElementString("Measurment", Measurment);
 
                     writer.WriteEndElement();
@@ -209,10 +198,10 @@ namespace AssetManagementSistem
                     new XElement("Device",
                     new XElement("Type", Type),
                     new XElement("ID", Id),
-                    new XElement("SendTo", SendTo),
+                    new XElement("SendToLC", id.ToString()+"|"+ vreme.ToString()),
                     new XElement("ActualValue", ActualValue),
                     new XElement("ActualState", ActualState),
-                    new XElement("TimeStamp", TimeStamp),
+                    new XElement("TimeStamp", DateTime.Now.ToString()),
                     new XElement("Measurment", Measurment)));
 
                 xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
