@@ -207,10 +207,10 @@ namespace LocalControler
             return u;
         }
 
-        public int ReadXMLTime()
+        public int ReadXMLTime(string putanja)
         {
             bool uspesno = false;
-            string putanja = @"..\..\..\Vreme\vreme.xml";
+            
             XmlDataDocument xmldoc = new XmlDataDocument();
             XmlNodeList xmlnode;
             int i = 0;

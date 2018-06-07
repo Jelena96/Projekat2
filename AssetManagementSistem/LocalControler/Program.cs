@@ -19,11 +19,12 @@ namespace LocalControler
         private static int idk;
         public static string path;
         public static int caseSwitch;
+        public static string putanja = @"..\..\..\Vreme\vreme.xml";
         public static List<string> aktivniKontroleri = new List<string>();
 
         public static void Meni() {
             LocalControlerClass lc = new LocalControlerClass();
-            Console.WriteLine(lc.ReadXMLTime().ToString());
+            Console.WriteLine(lc.ReadXMLTime(putanja).ToString());
             Console.WriteLine("*******MENI********");
             Console.WriteLine("1.Da li zelite da kreirate novi kontroler");
             Console.WriteLine("2.Da li zelite da upalite  kontroler");
@@ -77,7 +78,7 @@ namespace LocalControler
                         lc.LocalControlerCode = idk;
                         lc.TimeStamp = DateTime.Now;
                         bool success;
-
+                        
                         Thread t = new Thread(new ThreadStart(() =>
                         {
                             while (true)
@@ -85,7 +86,7 @@ namespace LocalControler
                                 ConnectwithAMS();
                                 bool uspesno = proksi2.ReadXML(path, lc.LocalControlerCode, lc.TimeStamp);
                                 
-                                Thread.Sleep(lc.ReadXMLTime());
+                                Thread.Sleep(lc.ReadXMLTime(putanja));
                             }
                             
                         }));
