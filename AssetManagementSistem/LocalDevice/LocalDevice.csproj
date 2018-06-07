@@ -52,7 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj">
-      <Project>{C0DEF597-F944-4734-ADA7-826540D81E4A}</Project>
+      <Project>
+      </Project>
       <Name>Contracts</Name>
     </ProjectReference>
   </ItemGroup>

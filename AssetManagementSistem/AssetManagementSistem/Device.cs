@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -12,34 +13,42 @@ namespace AssetManagementSistem
     public class Device
     {
         public int LocalDeviceCode { get; set; }
-    
-       
+
         public DateTime TimeStamp { get; set; }
 
         public int AnalogActualValue { get; set; }
-      
+
         public string ActualValue { get; set; }
-     
+
         public string DeviceType { get; set; }
-       
+
         public string SendTo { get; set; }
-        
+
         public string ActualState { get; set; }
 
-        public  List<int> Measurments { get; set; }
-        public   int BrMjerenja { get; set; }
+        public List<int> Measurments { get; set; }
+        public int BrMjerenja { get; set; }
+        public int BrPromjena { get; set; }
+        //public DateTime Timepom { get; set; }
+        public DateTime RadniSati { get; set; }
 
-        public Device(int id,int t1,int t2)
+        public string pomtime { get; set; }
+
+        public Device(int id, int t1, int t2,int p)
         {
-            BrMjerenja = 0;
-            Measurments = new List<int>();
+           
             string pomocni = "";
             string pom = "";
             int timestamp = 0;
             bool uspesno = false;
+            int globalTimestamp;
+            BrMjerenja = 0;
+            Measurments = new List<int>();
+           
             string folder = @"..\..\..\AMSBaza";
             string[] files = Directory.GetFiles(folder, "*.xml");
-           
+
+
             if (files == null)
             {
                 uspesno = false;
@@ -57,6 +66,7 @@ namespace AssetManagementSistem
                     FileStream fs = new FileStream(putanja, FileMode.Open, FileAccess.Read);
                     xmldoc.Load(fs);
                     xmlnode = xmldoc.GetElementsByTagName("Device");
+
                     for (i = 0; i <= xmlnode.Count - 1; i++)
                     {
                         uspesno = true;
@@ -65,7 +75,7 @@ namespace AssetManagementSistem
                          xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
                         Console.WriteLine(str);
                         string[] stringArray = str.Split(' ');
-                        if (Int32.Parse(stringArray[2]) == id && stringArray[0]=="A")
+                        if (Int32.Parse(stringArray[2]) == id && stringArray[0] == "A")
                         {
 
                             DeviceType = stringArray[0];
@@ -73,26 +83,41 @@ namespace AssetManagementSistem
                             SendTo = stringArray[4];
                             ActualValue = stringArray[5];
                             ActualState = stringArray[7];
-                            pomocni = stringArray[9] +" "+ stringArray[10];
+                            pomocni = stringArray[9] + " " + stringArray[10];
+         
                             TimeStamp = DateTime.Parse(pomocni);
-                            pom=TimeStamp.ToString("dd/MM/yyyy");
+                            DateTime danas = DateTime.Now;
+                            int timestamp5 = (Int32)(danas.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+                            globalTimestamp = (Int32)(TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+                            double Ispis = timestamp5 - globalTimestamp;
+                            RadniSati = UnixTimeStampToDateTime(Ispis);
+                            pomtime = RadniSati.ToString().Substring(9);
+                            pom = TimeStamp.ToString("dd/MM/yyyy");
                             TimeStamp = DateTime.Parse(pom);
                             AnalogActualValue = Int32.Parse(stringArray[12]);
+                            BrPromjena = p;
                             timestamp = (Int32)(TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
                             if (timestamp >= t1 && timestamp <= t2)
                             {
                                 Measurments.Add(AnalogActualValue);
                                 BrMjerenja++;
                             }
-                            
                         }
-
                     }
 
                     fs.Close();
 
                 }
             }
+        }
+
+
+        public static DateTime UnixTimeStampToDateTime(double unixTimeStamp)
+        {
+            // Unix timestamp is seconds past epoch
+            System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+            dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+            return dtDateTime;
         }
 
 
@@ -115,3 +140,6 @@ namespace AssetManagementSistem
 
     }
 }
+
+        
+
