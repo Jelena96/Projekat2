@@ -8,14 +8,14 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="409*"/>
-            <RowDefinition Height="10*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="802" Grid.ColumnSpan="2" SelectionChanged="tabControl_SelectionChanged" Margin="-10,0,0,0" Grid.RowSpan="2">
+        <TabControl x:Name="tabControl" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="802" Grid.ColumnSpan="2" SelectionChanged="tabControl_SelectionChanged" Margin="-10,0,0,-1" Grid.RowSpan="2">
 
             <TabItem Header="Details">
                 <Grid Background="#1c6ba0">
@@ -29,7 +29,7 @@
                     <TextBlock HorizontalAlignment="Left" Margin="14,42,0,0" TextWrapping="Wrap" Text="Device ID" VerticalAlignment="Top" Height="22" Width="62"/>
 
                     <TextBox x:Name="textBoxChanges"  Grid.Column="2" Margin="81,37,116,95"  IsReadOnly="True" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
-                    <TextBox x:Name="textBoxSummary" IsReadOnly="True" Margin="81,324,116,10" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+                    <TextBox x:Name="textBoxSummary" IsReadOnly="True" Margin="81,0,116,10" Grid.Column="2" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" Height="58" VerticalAlignment="Bottom" />
                     <TextBlock TextWrapping="Wrap" Text="Changes" Margin="255,10,224,343" Grid.Column="2"/>
                     <TextBlock TextWrapping="Wrap" Text="Summary" Margin="269,293,210,60" Grid.Column="2"/>
                     <StackPanel HorizontalAlignment="Left" Height="73" Margin="0,93,0,0" VerticalAlignment="Top" Width="97" RenderTransformOrigin="0.505,0.575" Grid.Column="1">
