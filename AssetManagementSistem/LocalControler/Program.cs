@@ -21,6 +21,7 @@ namespace LocalControler
         public static int caseSwitch;
         public static string putanja = @"..\..\..\Vreme\vreme.xml";
         public static List<string> aktivniKontroleri = new List<string>();
+        public static string folder = @"..\..\..\Kontroleri";
 
         public static void Meni() {
             LocalControlerClass lc = new LocalControlerClass();

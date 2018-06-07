@@ -82,11 +82,11 @@ namespace LocalDevice
       
 
 
-<<<<<<< HEAD
+
         string path = "";
-=======
-            string path = "";
->>>>>>> 40a31bb9d03fd2b07365e358c682fe372b23a3cc
+
+          
+
             string type = "";
             int idk = 0;
            

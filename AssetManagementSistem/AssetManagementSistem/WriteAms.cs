@@ -120,10 +120,10 @@ namespace AssetManagementSistem
 
 
 
-        public void ReadXML(string putanja,int id, DateTime datum)
+        public void ReadXML(string putanja,int id)
         {
 
-            if (putanja == null || id==null || datum==null)
+            if (putanja == null || id==null)
             {
                 throw new ArgumentNullException("Argument can't be null");
             }
@@ -133,7 +133,7 @@ namespace AssetManagementSistem
                 throw new ArgumentException("Argument can't be lower than null");
             }
 
-            
+            DateTime datum = DateTime.Now;
            
             XmlDataDocument xmldoc = new XmlDataDocument();
             XmlNodeList xmlnode;

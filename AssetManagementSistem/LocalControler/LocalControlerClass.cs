@@ -23,6 +23,7 @@ namespace LocalControler
         public int LocalControlerCode { get; set; }
         [DataMember]
         public DateTime TimeStamp { get; set; }
+        public static string folder = @"..\..\..\Kontroleri";
         private static List<string> aktivniKontroleri = new List<string>();
         public static string[] files;
     
@@ -49,7 +50,7 @@ namespace LocalControler
             return ran.Next(1, 300);
         }
 
-        // public bool CreateXML(string p1, Dictionary<int,List<LocalDeviceClass>> dic,int d)
+        
         public void CreateXML(string p1, Dictionary<int, List<LocalDeviceClass>> dic, LocalDeviceClass di)
         {
 
@@ -124,7 +125,7 @@ namespace LocalControler
                         }
                     }
 
-                    IzlistajKontrolere();
+                    IzlistajKontrolere(folder);
                    
                 }
             }
@@ -166,12 +167,12 @@ namespace LocalControler
                                 int meas_value = 0;
                                 if (d.DeviceType == "A")
                                 {
-                                    //writer.WriteElementString("Measurment", GetType2().ToString());
+                                    
                                     meas_value = GetType2();
                                 }
                                 else if (d.DeviceType == "D")
                                 {
-                                    //writer.WriteElementString("Measurment", device.AnalogActualValue.ToString());\
+                                    
                                     meas_value = GetType2() % 2;
                                 }
 
@@ -268,11 +269,11 @@ namespace LocalControler
             return u;
         }
 
-        public static void IzlistajKontrolere() {
+        public static void IzlistajKontrolere(string folder) {
 
             string[] p;
             string ime = null;
-            string folder = @"..\..\..\Kontroleri";
+           
             string[] files = Directory.GetFiles(folder, "*.xml");
 
             if (files.Length == 0)

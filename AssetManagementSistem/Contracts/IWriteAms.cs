@@ -13,7 +13,7 @@ namespace Contracts
         [OperationContract]
         void WriteAMSxml2(LocalDeviceClass s);
         [OperationContract]
-        void ReadXML(string p,int id, DateTime vreme);
+        void ReadXML(string p,int id);
         [OperationContract]
         void WriteAMSxml(string s,int id, DateTime vreme);
     }
