@@ -29,14 +29,31 @@ namespace AssetManagementSistem
         public List<int> Measurments { get; set; }
         public int BrMjerenja { get; set; }
         public int BrPromjena { get; set; }
-        //public DateTime Timepom { get; set; }
+       
         public DateTime RadniSati { get; set; }
 
         public string pomtime { get; set; }
 
+        public Device()
+        {
+
+        }
+
         public Device(int id, int t1, int t2,int p)
         {
-           
+            if (id <= 0 || t1 <=0 )
+            {
+                if(t2 <= 2 || p <=0)
+                {
+                    throw new ArgumentException("Invalid command!");
+                }
+            }
+
+            if (id == null || t1 == null || t2 == null || p==null)
+            {
+                throw new ArgumentException("Arguments can't be null");
+            }
+
             string pomocni = "";
             string pom = "";
             int timestamp = 0;
@@ -80,10 +97,10 @@ namespace AssetManagementSistem
 
                             DeviceType = stringArray[0];
                             LocalDeviceCode = Int32.Parse(stringArray[2]);
-                            SendTo = stringArray[4];
-                            ActualValue = stringArray[5];
-                            ActualState = stringArray[7];
-                            pomocni = stringArray[9] + " " + stringArray[10];
+                            SendTo = stringArray[4] + stringArray[5];
+                            ActualValue = stringArray[6];
+                            ActualState = stringArray[8];
+                            pomocni = stringArray[10] + " " + stringArray[11];
          
                             TimeStamp = DateTime.Parse(pomocni);
                             DateTime danas = DateTime.Now;
@@ -94,7 +111,7 @@ namespace AssetManagementSistem
                             pomtime = RadniSati.ToString().Substring(9);
                             pom = TimeStamp.ToString("dd/MM/yyyy");
                             TimeStamp = DateTime.Parse(pom);
-                            AnalogActualValue = Int32.Parse(stringArray[12]);
+                            AnalogActualValue = Int32.Parse(stringArray[13]);
                             BrPromjena = p;
                             timestamp = (Int32)(TimeStamp.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
                             if (timestamp >= t1 && timestamp <= t2)

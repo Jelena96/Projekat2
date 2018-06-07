@@ -27,9 +27,14 @@ namespace AssetManagementSistem
             return ran.Next(1, 300);
         }
 
-        public bool WriteAMSxml2(LocalDeviceClass device)
+        public void WriteAMSxml2(LocalDeviceClass device)
         {
-            
+            if (device == null)
+            {
+                throw new ArgumentNullException("Argument can't be null");
+            }
+
+
             int j = 0;
             bool u = false;
             if (!File.Exists(@"..\..\..\AMSBaza\AMS.xml"))
@@ -110,14 +115,25 @@ namespace AssetManagementSistem
                 xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
             }
 
-            return u;
+            
         }
 
 
 
-        public bool ReadXML(string putanja,int id, DateTime datum)
+        public void ReadXML(string putanja,int id, DateTime datum)
         {
-            bool uspesno = false;
+
+            if (putanja == null || id==null || datum==null)
+            {
+                throw new ArgumentNullException("Argument can't be null");
+            }
+
+            if(id<=0)
+            {
+                throw new ArgumentException("Argument can't be lower than null");
+            }
+
+            
            
             XmlDataDocument xmldoc = new XmlDataDocument();
             XmlNodeList xmlnode;
@@ -128,7 +144,7 @@ namespace AssetManagementSistem
             xmlnode = xmldoc.GetElementsByTagName("Device");
             for (i = 0; i <= xmlnode.Count - 1; i++)
             {
-                uspesno = true;
+                
                 xmlnode[i].ChildNodes.Item(0).InnerText.Trim();
                 str = xmlnode[i].ChildNodes.Item(0).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(1).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(2).InnerText.Trim() + " " +
                  xmlnode[i].ChildNodes.Item(3).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(4).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(5).InnerText.Trim() + "  " + xmlnode[i].ChildNodes.Item(6).InnerText.Trim();
@@ -142,12 +158,21 @@ namespace AssetManagementSistem
             //}
             //}
 
-            return uspesno;
+            
         }
 
-        public bool WriteAMSxml(string s,int id,DateTime vreme)
+        public void WriteAMSxml(string s,int id,DateTime vreme)
         {
-            bool uspesno = false;
+
+
+            if (s == null || id == null || vreme == null)
+            {
+                throw new ArgumentNullException("Argument can't be null");
+            }
+            if (id <= 0)
+            {
+                throw new ArgumentException("Argument can't be lower than null");
+            }
 
             string[] stringArray = s.Split(' ');
             string Type = stringArray[0];
@@ -206,7 +231,7 @@ namespace AssetManagementSistem
 
                 xDocument.Save(@"..\..\..\AMSBaza\AMS.xml");
             }
-            return uspesno;
+           
         }
 
         public void DeleteControllers()

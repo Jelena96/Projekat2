@@ -11,10 +11,10 @@ namespace Contracts
     public interface IWriteAms
     {
         [OperationContract]
-        bool WriteAMSxml2(LocalDeviceClass s);
+        void WriteAMSxml2(LocalDeviceClass s);
         [OperationContract]
-        bool ReadXML(string p,int id, DateTime vreme);
+        void ReadXML(string p,int id, DateTime vreme);
         [OperationContract]
-        bool WriteAMSxml(string s,int id, DateTime vreme);
+        void WriteAMSxml(string s,int id, DateTime vreme);
     }
 }

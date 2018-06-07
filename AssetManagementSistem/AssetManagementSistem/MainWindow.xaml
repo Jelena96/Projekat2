@@ -76,7 +76,7 @@
 
                     <DataGrid HorizontalAlignment="Left" Height="378" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="2"/>
                     <Label Content="Working hours for selected device is:" HorizontalAlignment="Left" FontSize="20" Height="44" Margin="198,81,0,0" VerticalAlignment="Top" Width="339" Grid.ColumnSpan="2"/>
-                    <TextBox x:Name="textBoxSati" HorizontalAlignment="Left" FontSize="50" Height="92" Margin="6,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" Grid.Column="1"/>
+                    <TextBox x:Name="textBoxSati" IsReadOnly="True" HorizontalAlignment="Left" FontSize="50" Height="92" Margin="6,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="204" Grid.Column="1"/>
                     <Button x:Name="buttonRadniSati" Content="Show" HorizontalAlignment="Left" Height="39" Margin="63,257,0,0" VerticalAlignment="Top" Width="88" Click="buttonRadniSati_Click" Grid.Column="1"/>
                 </Grid>
             </TabItem>

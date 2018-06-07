@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5467E577-BBC8-416F-BA07-3C484F0B222C}</ProjectGuid>
+    <ProjectGuid>{D3BA6C52-03E6-4F23-8E56-C69B3E9FD91A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LocalDeviceTest</RootNamespace>
-    <AssemblyName>LocalDeviceTest</AssemblyName>
+    <RootNamespace>LocalControlerTest</RootNamespace>
+    <AssemblyName>LocalControlerTest</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,7 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProgramTest.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="LocalControlerClassTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,9 +52,9 @@
       <Project>{c0def597-f944-4734-ada7-826540d81e4a}</Project>
       <Name>Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LocalDevice\LocalDevice.csproj">
-      <Project>{03715d97-c380-4424-9a1e-746e69948d53}</Project>
-      <Name>LocalDevice</Name>
+    <ProjectReference Include="..\LocalControler\LocalControler.csproj">
+      <Project>{f74b81a9-592b-4301-947a-3bd285b94bda}</Project>
+      <Name>LocalControler</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -16,6 +16,6 @@ namespace Contracts
         [OperationContract]
         void Procitaj(LocalDeviceClass P);
         [OperationContract]
-        bool CreateXML(string s, Dictionary<int, List<LocalDeviceClass>> d , LocalDeviceClass l);
+        void CreateXML(string s, Dictionary<int, List<LocalDeviceClass>> d , LocalDeviceClass l);
     }
 }

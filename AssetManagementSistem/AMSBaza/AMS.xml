@@ -1,0 +1,7005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Devices>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:53</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:53</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>266</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>266</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>186</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>72</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>1</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>222</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>258</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>125</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>255</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>100</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>51</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>145</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>217</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>61</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>71</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>299</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>94</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>103</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>188</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>81</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>224</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>19</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>195</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>231</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>124</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>159</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:52</TimeStamp>
+    <Measurment>195</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:51</TimeStamp>
+    <Measurment>112</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:51</TimeStamp>
+    <Measurment>112</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:50</TimeStamp>
+    <Measurment>216</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:50</TimeStamp>
+    <Measurment>265</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:49</TimeStamp>
+    <Measurment>44</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:49</TimeStamp>
+    <Measurment>235</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:48</TimeStamp>
+    <Measurment>197</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:48</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:47</TimeStamp>
+    <Measurment>60</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:47</TimeStamp>
+    <Measurment>60</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:46</TimeStamp>
+    <Measurment>138</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:46</TimeStamp>
+    <Measurment>187</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:44</TimeStamp>
+    <Measurment>67</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:44</TimeStamp>
+    <Measurment>116</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:43</TimeStamp>
+    <Measurment>194</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:43</TimeStamp>
+    <Measurment>86</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>298</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>48</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>186</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>72</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>1</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>222</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>258</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>125</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>255</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>100</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>51</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>145</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>217</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>61</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>71</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>299</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>94</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>103</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>188</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>81</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>224</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:42</TimeStamp>
+    <Measurment>19</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:41</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:41</TimeStamp>
+    <Measurment>126</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:40</TimeStamp>
+    <Measurment>262</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:40</TimeStamp>
+    <Measurment>145</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:39</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:39</TimeStamp>
+    <Measurment>116</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:38</TimeStamp>
+    <Measurment>2</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:38</TimeStamp>
+    <Measurment>194</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:37</TimeStamp>
+    <Measurment>80</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:37</TimeStamp>
+    <Measurment>272</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:36</TimeStamp>
+    <Measurment>67</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:36</TimeStamp>
+    <Measurment>259</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:35</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:35</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:34</TimeStamp>
+    <Measurment>298</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:34</TimeStamp>
+    <Measurment>298</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:33</TimeStamp>
+    <Measurment>269</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:33</TimeStamp>
+    <Measurment>162</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>289</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>181</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:32</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>186</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>72</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>1</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>222</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>258</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>125</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>255</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>100</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>51</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>145</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>217</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>61</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>71</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>299</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>94</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>68</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:31</TimeStamp>
+    <Measurment>259</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:30</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:30</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:29</TimeStamp>
+    <Measurment>75</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:29</TimeStamp>
+    <Measurment>266</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:28</TimeStamp>
+    <Measurment>94</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:28</TimeStamp>
+    <Measurment>286</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:27</TimeStamp>
+    <Measurment>247</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:27</TimeStamp>
+    <Measurment>33</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:26</TimeStamp>
+    <Measurment>110</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:26</TimeStamp>
+    <Measurment>159</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:25</TimeStamp>
+    <Measurment>237</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:24</TimeStamp>
+    <Measurment>179</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:23</TimeStamp>
+    <Measurment>150</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:23</TimeStamp>
+    <Measurment>42</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:22</TimeStamp>
+    <Measurment>120</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:22</TimeStamp>
+    <Measurment>169</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>273</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>273</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>186</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>72</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>1</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>222</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>258</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>125</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>255</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>100</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>51</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>145</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:21</TimeStamp>
+    <Measurment>217</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:20</TimeStamp>
+    <Measurment>52</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:20</TimeStamp>
+    <Measurment>52</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:19</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:19</TimeStamp>
+    <Measurment>196</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:18</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:18</TimeStamp>
+    <Measurment>166</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:17</TimeStamp>
+    <Measurment>228</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:17</TimeStamp>
+    <Measurment>137</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:16</TimeStamp>
+    <Measurment>140</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:16</TimeStamp>
+    <Measurment>215</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:15</TimeStamp>
+    <Measurment>26</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:15</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:14</TimeStamp>
+    <Measurment>104</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:14</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:13</TimeStamp>
+    <Measurment>75</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:13</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:12</TimeStamp>
+    <Measurment>202</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:12</TimeStamp>
+    <Measurment>277</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>221</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>43</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>186</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>72</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>1</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>56</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>222</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>66</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>258</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>125</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>255</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>45</ID>
+    <SendToLC>12|7.6.2018 3:48:11</SendToLC>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:11</TimeStamp>
+    <Measurment>100</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:10</TimeStamp>
+    <Measurment>299</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:10</TimeStamp>
+    <Measurment>267</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:09</TimeStamp>
+    <Measurment>78</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:09</TimeStamp>
+    <Measurment>239</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:08</TimeStamp>
+    <Measurment>49</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:08</TimeStamp>
+    <Measurment>18</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:07</TimeStamp>
+    <Measurment>127</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:07</TimeStamp>
+    <Measurment>96</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:06</TimeStamp>
+    <Measurment>280</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:06</TimeStamp>
+    <Measurment>281</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:05</TimeStamp>
+    <Measurment>251</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:05</TimeStamp>
+    <Measurment>252</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:04</TimeStamp>
+    <Measurment>30</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:04</TimeStamp>
+    <Measurment>80</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:03</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:02</TimeStamp>
+    <Measurment>50</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:02</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:01</TimeStamp>
+    <Measurment>128</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:01</TimeStamp>
+    <Measurment>205</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:00</TimeStamp>
+    <Measurment>99</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:48:00</TimeStamp>
+    <Measurment>283</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:59</TimeStamp>
+    <Measurment>177</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:59</TimeStamp>
+    <Measurment>4</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:58</TimeStamp>
+    <Measurment>138</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:58</TimeStamp>
+    <Measurment>273</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:57</TimeStamp>
+    <Measurment>109</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:57</TimeStamp>
+    <Measurment>101</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:56</TimeStamp>
+    <Measurment>187</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:56</TimeStamp>
+    <Measurment>264</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:55</TimeStamp>
+    <Measurment>73</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:55</TimeStamp>
+    <Measurment>91</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:54</TimeStamp>
+    <Measurment>151</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:54</TimeStamp>
+    <Measurment>62</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:53</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:53</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:52</TimeStamp>
+    <Measurment>24</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:52</TimeStamp>
+    <Measurment>267</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:51</TimeStamp>
+    <Measurment>53</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:50</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:50</TimeStamp>
+    <Measurment>131</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:49</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:49</TimeStamp>
+    <Measurment>209</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:48</TimeStamp>
+    <Measurment>277</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:48</TimeStamp>
+    <Measurment>229</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:47</TimeStamp>
+    <Measurment>248</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>46104728</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:47</TimeStamp>
+    <Measurment>8</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:46</TimeStamp>
+    <Measurment>218</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:45</TimeStamp>
+    <Measurment>104</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:44</TimeStamp>
+    <Measurment>182</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:43</TimeStamp>
+    <Measurment>153</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:42</TimeStamp>
+    <Measurment>280</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:41</TimeStamp>
+    <Measurment>251</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:40</TimeStamp>
+    <Measurment>79</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:39</TimeStamp>
+    <Measurment>157</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:38</TimeStamp>
+    <Measurment>127</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:37</TimeStamp>
+    <Measurment>13</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:36</TimeStamp>
+    <Measurment>91</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>89</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 3:47:35</TimeStamp>
+    <Measurment>4</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>76</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>76</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>76</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>76</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>268</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>567</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>7.6.2018 1:22:13</TimeStamp>
+    <Measurment>121</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>189</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>291</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>70</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>197</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>274</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>232</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>60</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>138</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>109</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>187</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>265</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>236</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>90</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>167</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>245</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>73</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>44</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>122</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>158</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>236</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>207</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>285</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>113</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>83</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>178</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>256</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>227</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>54</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>25</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>103</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>181</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>168</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>55</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>133</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>103</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>181</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>201</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>246</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>266</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>45</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>16</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>94</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>172</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>16</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>45</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>201</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>279</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>58</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>78</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>39</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>68</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>146</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>224</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>110</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>188</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>42</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>120</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>149</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>227</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>6</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>84</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>237</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>256</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>227</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>6</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>84</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>269</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>48</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>276</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>247</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>75</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>45</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>65</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>36</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>9799115</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 21:20:51</TimeStamp>
+    <Measurment>179</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>217</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>38</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>116</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>87</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>165</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>292</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>71</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>41</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>227</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>6</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>275</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>246</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>25</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>210</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>256</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>35</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>113</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>240</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>45</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>249</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>220</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>201</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>172</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>250</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>29</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>48</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>155</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>282</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>78</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>185</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>263</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>282</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>253</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>32</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>110</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>188</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>152</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>249</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>28</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>106</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>184</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>201</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>279</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>165</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>243</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>204</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>67</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>253</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>68</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>146</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>117</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>195</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>156</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>234</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>97</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>175</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>195</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>214</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>185</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>263</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>91</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>61</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>247</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>26</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>104</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>74</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>152</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>230</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>9</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>29</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>77</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>155</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>250</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>29</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>214</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>185</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>146</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>224</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>195</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>273</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>52</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>146</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>175</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>3</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>32</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>234</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>13</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>91</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>253</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>98</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>176</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>205</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>283</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>62</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>140</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>26</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>296</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>199</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>169</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>140</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>218</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>179</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>257</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>169</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>296</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>284</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>63</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>140</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>170</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>247</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>267</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>153</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>231</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>30</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>251</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>30</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>108</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>234</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>13</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>283</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>111</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>140</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>218</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>296</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>75</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>153</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>280</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>59</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>88</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>107</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>20</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>146</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>224</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>253</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>273</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>52</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>237</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>208</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>228</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>6</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>276</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>55</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>133</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>45</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>123</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>250</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>29</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>267</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>153</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>231</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>46</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>124</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>153</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>231</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>10</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>88</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>215</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>900</ID>
+    <SendTo>AMS</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:34:39</TimeStamp>
+    <Measurment>293</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>223</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>272</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+  <Device>
+    <Type>A</Type>
+    <ID>12345</ID>
+    <SendTo>LC</SendTo>
+    <ActualValue>on</ActualValue>
+    <ActualState>close</ActualState>
+    <TimeStamp>6.6.2018 14:32:17</TimeStamp>
+    <Measurment>147</Measurment>
+  </Device>
+</Devices>

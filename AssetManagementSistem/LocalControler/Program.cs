@@ -83,7 +83,7 @@ namespace LocalControler
                             while (true)
                             {
                                 ConnectwithAMS();
-                                bool uspesno = proksi2.ReadXML(path, lc.LocalControlerCode, lc.TimeStamp);
+                                proksi2.ReadXML(path, lc.LocalControlerCode, lc.TimeStamp);
                                 
                                 Thread.Sleep(lc.ReadXMLTime());
                             }

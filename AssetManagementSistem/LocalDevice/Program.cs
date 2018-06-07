@@ -81,10 +81,7 @@ namespace LocalDevice
         {
       
 
-<<<<<<< HEAD
 
-=======
->>>>>>> cee92743177392ee1bfc632df9f584a563721e13
         string path = "";
             string type = "";
             int idk = 0;
@@ -188,7 +185,7 @@ namespace LocalDevice
                                 while (true)
                                 {
                                     ConnectLC();
-                                    uspjesno = proksi.CreateXML(path, DeviceDic, l);
+                                    proksi.CreateXML(path, DeviceDic, l);
                                     Thread.Sleep(2000);
                                 }
                             }));
@@ -286,7 +283,10 @@ namespace LocalDevice
 
         public static void WriteIdXml(int id)
         {
-
+            if (id <= 0 || id==null)
+            {
+                throw new ArgumentException("Argument can't be lower than null or null");
+            }
 
             if (!File.Exists(@"..\..\..\BazaId\Id.xml"))
             {

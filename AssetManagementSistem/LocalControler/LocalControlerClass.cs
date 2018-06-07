@@ -50,10 +50,21 @@ namespace LocalControler
         }
 
         // public bool CreateXML(string p1, Dictionary<int,List<LocalDeviceClass>> dic,int d)
-        public bool CreateXML(string p1, Dictionary<int, List<LocalDeviceClass>> dic, LocalDeviceClass di)
+        public void CreateXML(string p1, Dictionary<int, List<LocalDeviceClass>> dic, LocalDeviceClass di)
         {
+
+            if (dic == null || di==null || p1==null)
+            {
+                throw new NullReferenceException("Argument can't be null!");
+            }
+            if (dic.Count == 0)
+            {
+                throw new ArgumentException("Dictionary must have values!");
+            }
+
+
             int j = 0;
-            bool u = false;
+         
 
             if (!CheckXMLFile(p1))
             {
@@ -65,7 +76,7 @@ namespace LocalControler
                         if (item.Key == di.IdControler)
                         {
 
-                            u = true;
+                            
                             writer.WriteStartDocument();
                             writer.WriteStartElement("Devices");
 
@@ -204,7 +215,7 @@ namespace LocalControler
 
             }
 
-            return u;
+            
         }
 
         public int ReadXMLTime()
